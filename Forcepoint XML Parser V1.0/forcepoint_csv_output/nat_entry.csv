@@ -1,2 +1,0 @@
-rule_entry.db_key,rule_entry.is_disabled,rule_entry.parent_rule_ref,rule_entry.rank,rule_entry.tag,rule_entry.nat_rule.valid_fw_ref
-10685 | 10686,true | false,NAT rule : insert point | NAT rule : insert point,0.0 | 1.0,2098134.2 | 2098135.0,ANY | ANY

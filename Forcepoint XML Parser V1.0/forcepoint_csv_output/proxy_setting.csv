@@ -1,2 +1,0 @@
-renegociation_timeout,ssl_3_0,tls_1_0,tls_1_1,tls_1_2
-7200,false,false,false,true

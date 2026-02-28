@@ -1,2 +1,0 @@
-gateway_node.central,gateway_node.gateway_ref,gateway_node.mobile,gateway_node.vpn_site_ref.enabled,gateway_node.vpn_site_ref.ref_key,gateway_node.vpn_site_ref.site_mode,gateway_node.vpn_site_ref.value
-false | false,VPN Client | AIC-Context-New@#1,true | true,true | true,1,normal | normal,VPN Client | Automatic Site for AIC-Context-New-2 - Primary

@@ -1,9 +1,0 @@
-db_key,name,match_element_entry.class_id,match_element_entry.ref
-1318,MatchExpression_1664655848297_25,6,Lab2
-1319,MatchExpression_1664655848301_26,6,camera
-1320,MatchExpression_1664655848303_27,6 | 6,10.53.231.0/24 | camera
-1321,MatchExpression_1664655848304_28,6,users
-1322,MatchExpression_1664655848305_29,6,users
-1323,MatchExpression_1664655848306_30,6,users
-1324,MatchExpression_1664655848307_31,6,users
-1325,MatchExpression_1664655848308_32,6,users

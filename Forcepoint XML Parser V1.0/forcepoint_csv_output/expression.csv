@@ -1,3 +1,0 @@
-db_key,name,operator,expression_value.ne_ref,expression_value.operator,expression_value.expression_value.operator,expression_value.expression_value.ne_ref,expression_value.expression_value.ne_ref_key,expression_value.expression_value.expression_value.ne_ref,expression_value.expression_value.expression_value.ne_ref_key
-74029,NOT_AIC_Internal,exclusion,AIC_Subnet,,,,,,
-73437,Not Internal,exclusion,,union,union,private-192.168.0.0/16,120,private-10.0.0.0/8 | private-172.16.0.0/12,106 | 118

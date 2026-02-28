@@ -1,2 +1,0 @@
-alert_notification,down_ratio,name,nicid,offline_state,online_state,snmp_notification,standby_state,test_action,test_active,test_interval
-true,30,Link Status,all_with_cvi,true,true,false,true,offline,true,10

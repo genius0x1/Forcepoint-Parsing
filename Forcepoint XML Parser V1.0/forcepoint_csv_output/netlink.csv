@@ -1,3 +1,0 @@
-active_mode_period,active_mode_timeout,connection_type_ref,connection_type_ref_key,db_key,gateway_ref,input_speed,input_speed_unit,name,nsp_name,output_speed,output_speed_unit,standby_mode_period,standby_mode_timeout,probe_address.value,network_list.ref
-5,15,Active,1,73902,router-41.33.212.177,100.0,mbitps,AIC-100M,WE,100.0,mbitps,3600,30,8.8.8.8,network-41.33.212.176/29
-5,15,Active,1,74026,router-41.33.206.73,100.0,mbitps,AIC_74,WE_1,100.0,mbitps,3600,30,8.8.8.8,network-41.33.206.72/29

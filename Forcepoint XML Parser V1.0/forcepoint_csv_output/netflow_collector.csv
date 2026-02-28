@@ -1,9 +1,0 @@
-data_context,data_context_key,netflow_collector_host_ref,netflow_collector_port,netflow_collector_service,netflow_collector_version
-All Log Data,2,SMA1-LR,514,udp,cef
-All Log Data,2,SMA1-LR,2055,udp,ipfix
-All Log Data,2,SIEM_Collector02,514,udp,leef
-FW,3,firemon,2055,udp,cef
-All Log Data,2,SMA1-LR,514,udp,cef
-All Log Data,2,SMA1-LR,2055,udp,ipfix
-All Log Data,2,SIEM_Collector01,514,udp,leef
-FW,3,firemon,514,udp,cef

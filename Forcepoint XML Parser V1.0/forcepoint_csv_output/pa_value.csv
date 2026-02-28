@@ -1,5 +1,0 @@
-param_description,param_ref_key,value
-Make protocol validation,1,true
-Bytes allowed from client before Server ID,2,0
-Bytes allowed from server before Client ID,3,0
-Bytes allowed from server before Server ID,4,0

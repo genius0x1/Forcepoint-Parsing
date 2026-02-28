@@ -1,3 +1,0 @@
-dynamic_nat.generate_arp,dynamic_nat.packet_description.first_port,dynamic_nat.packet_description.last_port,dynamic_nat.packet_description.ne_ref
-true,1024,65535,AIC-100M-ML
-true,1024,65535,41.33.212.178

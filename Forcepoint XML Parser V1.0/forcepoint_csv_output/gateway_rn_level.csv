@@ -1,3 +1,0 @@
-db_key,ipaddress,ne_ref,ipaddress_behind_router.gateway,ipaddress_behind_router.ipaddress,any_rn_level.db_key,any_rn_level.ipaddress,any_rn_level.ne_ref,any_rn_level.ne_ref_key,any_rn_level.probe_ecmp,any_rn_level.probe_metric,any_rn_level.probe_test
-352,10.53.74.254,R-10.53.74.254,10.53.74.254,0.0.0.0/0,353,0.0.0.0/0,Any network,2,0,0,not_enabled
-257,10.53.145.10,router-10.53.145.10,10.53.145.10,0.0.0.0/0,258,0.0.0.0/0,Any network,2,0,0,not_enabled

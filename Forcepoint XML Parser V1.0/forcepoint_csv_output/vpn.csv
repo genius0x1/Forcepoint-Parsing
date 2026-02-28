@@ -1,2 +1,0 @@
-db_key,mobile_vpn_mode,name,nat_enabled,vpn_profile_ref,vpn_topology.gateway_node.central,vpn_topology.gateway_node.gateway_ref,vpn_topology.gateway_node.mobile,vpn_topology.gateway_node.vpn_site_ref.enabled,vpn_topology.gateway_node.vpn_site_ref.ref_key,vpn_topology.gateway_node.vpn_site_ref.site_mode,vpn_topology.gateway_node.vpn_site_ref.value
-2,selected,Remote_access VPN,true,Remote-accessVPNProfile,false | false,VPN Client | AIC-Context-New@#1,true | true,true | true,1,normal | normal,VPN Client | Automatic Site for AIC-Context-New-2 - Primary

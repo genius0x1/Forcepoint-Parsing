@@ -1,5 +1,0 @@
-db_key,name,mvia_address.address,third_party_monitoring.netflow,third_party_monitoring.snmp_trap
-73424,AIC-DHCP,10.53.135.135,false,false
-73425,AIC_DHCP_secondary,10.53.135.235,false,false
-73427,MCIT-DC1,10.210.200.17,false,false
-73428,MCIT-DC2,10.210.200.18,false,false

@@ -1,2 +1,0 @@
-auth_service_ref,db_key,isdefault,name,ldap_ref.rank,ldap_ref.value
-LDAP Authentication,10,true,aic-domain,0,AIC.GOV.EG

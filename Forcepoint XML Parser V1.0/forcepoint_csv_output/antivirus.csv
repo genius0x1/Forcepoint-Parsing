@@ -1,2 +1,0 @@
-antivirus_enabled,antivirus_http_proxy_enabled,antivirus_proxy_port,antivirus_update,antivirus_update_day,antivirus_update_time,virus_log_level,virus_mirror
-true,false,0,daily,mo,-7200000,stored,update.nai.com/Products/CommonUpdater

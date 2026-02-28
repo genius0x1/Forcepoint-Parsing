@@ -1,6 +1,0 @@
-db_key,name,mvia_address.address,third_party_monitoring.netflow,third_party_monitoring.snmp_trap
-72247,AI_Core Switch,10.53.235.10,false,false
-73928,R-10.53.74.254,10.53.74.254,false,false
-73913,router-10.53.145.10,10.53.145.10,false,false
-74025,router-41.33.206.73,41.33.206.73,false,false
-72270,router-41.33.212.177,41.33.212.177,false,false

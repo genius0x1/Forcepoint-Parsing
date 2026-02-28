@@ -1,8 +1,0 @@
-class_id,value
-6,10.210.53.0/255.255.255.0
-6,AIC-AlexVPN
-6,AIC-CAI-IT
-6,Cairo_R&D_Team_126
-6,network-10.53.127.0/24
-6,network-10.53.128.0/24
-6,server_vlan

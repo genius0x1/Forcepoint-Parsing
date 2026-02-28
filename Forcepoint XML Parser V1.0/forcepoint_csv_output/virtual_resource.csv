@@ -1,3 +1,0 @@
-allocated_domain_ref,allocated_domain_ref_key,connection_limit,db_key,name,rate_limit,show_master_nic,throughput_limit,vfw_id
-Shared Domain,1,0,4,AIC_VR,0,true,0,4
-Shared Domain,1,0,1,MCIT-VR,0,true,0,2
