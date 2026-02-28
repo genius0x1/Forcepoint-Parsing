@@ -1,4 +1,5 @@
 """
+Forcepoint XML Parser — Web Viewer + Excel Exporter
 pip install flask openpyxl
 python app_v3.py  ->  http://localhost:5000
 """
@@ -19,16 +20,7 @@ app.config['MAX_CONTENT_LENGTH'] = 50 * 1024 * 1024
 # ═══════════════════════════════════════════════════════════
 _name_map = {}
 
-def sanitize_name(orig: str, max_len=79) -> str:
-    s = orig.strip()
-    s = re.sub(r'[^\w\-\.]', '_', s)
-    s = re.sub(r'_+', '_', s)
-    s = s.strip('_').rstrip('.')
-    s = s or 'obj'
-    s = s[:max_len]
-    if s != orig:
-        _name_map[orig] = s
-    return s
+
 
 
 # ═══════════════════════════════════════════════════════════
@@ -48,7 +40,6 @@ def extract_objects(xml_bytes):
             n = el.attrib.get('name', '').strip()
             if n:
                 xml_names.add(n)
-                sanitize_name(n)
 
     def resolve(ref):
         if ref in xml_names:
