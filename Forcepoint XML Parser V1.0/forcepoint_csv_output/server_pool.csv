@@ -1,0 +1,2 @@
+db_key,monitoring_frequency,monitoring_mode,monitoring_port,name,server_allocation,members_list.member,ip_netlink_weight.arp_generate,ip_netlink_weight.ipaddress,ip_netlink_weight.netlink_ref,ip_netlink_weight.network_ref,ip_netlink_weight.weight
+73904,10,ping,0,test-server-pool,network,10.53.105.252 | NGINX-Reverse-Proxy-VM 1,true,41.33.206.74,AIC_74,network-41.33.206.72/29,1

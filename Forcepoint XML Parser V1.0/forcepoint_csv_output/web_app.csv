@@ -1,0 +1,7 @@
+eca_enabled,enabled,log_access,name,port,session_timeout,ssl_session_id,standalone_enabled,use_internal_credentials,tls_cipher_suites,tls_cipher_suites_key,tls_credentials
+false,false,false,smc_api,8082,300,false,false,false,,,
+false,false,false,smc_downloads,8080,300,false,false,false,,,
+false,true,false,webswing,8085,300,true,false,false,AES GCM Cryptographic Algorithms,3,MCIT-FW
+false,false,false,smc_api,8082,300,false,false,false,,,
+false,false,false,smc_downloads,8080,300,false,false,false,,,
+false,true,false,webswing,8085,300,true,false,false,AES GCM Cryptographic Algorithms,3,MCIT-FW

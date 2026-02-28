@@ -1,0 +1,2 @@
+db_key,multilink_method,name,retries,timeout,netlink_address.ip_range,netlink_address.netlink_ref,netlink_address.netlink_role,netlink_address.network_ref
+73903,rtt,AIC-100M-ML,2,3600,41.33.206.74-41.33.206.74 | 41.33.212.178-41.33.212.178,AIC_74 | AIC-100M,active | active,network-41.33.206.72/29 | network-41.33.212.176/29

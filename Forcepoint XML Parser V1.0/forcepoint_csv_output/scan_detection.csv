@@ -1,0 +1,3 @@
+log_level,scan_detection_icmp_events,scan_detection_icmp_timewindow,scan_detection_icmp_unit,scan_detection_tcp_events,scan_detection_tcp_timewindow,scan_detection_tcp_unit,scan_detection_type,scan_detection_udp_events,scan_detection_udp_timewindow,scan_detection_udp_unit
+stored,220,1,minute,220,1,minute,default off,220,1,minute
+stored,220,1,minute,220,1,minute,default off,220,1,minute

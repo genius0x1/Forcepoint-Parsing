@@ -1,0 +1,3 @@
+alert_interval,auto_recovery,boot_delay,boot_recovery,restart_delay,status_delay
+3600,true,120,true,5,5
+3600,true,120,true,5,5

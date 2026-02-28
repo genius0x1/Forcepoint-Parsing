@@ -1,0 +1,2 @@
+alert_notification,free_space,name,offline_state,online_state,snmp_notification,standby_state,test_action,test_active,test_interval
+true,9000,Free Swap Space,true,true,false,true,offline,true,30

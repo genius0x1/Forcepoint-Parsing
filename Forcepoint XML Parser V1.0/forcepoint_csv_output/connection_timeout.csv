@@ -1,0 +1,9 @@
+protocol,timeout
+icmp,5
+other,180
+tcp,1800
+udp,50
+icmp,5
+other,180
+tcp,1800
+udp,50

@@ -1,0 +1,67 @@
+auto_generated,db_key,ipaddress,ne_ref,ne_ref_key,validity
+system,256,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,497,10.53.74.254,R-10.53.74.254,,enable
+true,354,0.0.0.0/0,Any network,2,enable
+true,255,10.53.74.0/24,network-10.53.74.0/24,,enable
+false,498,10.53.202.0/24,network-10.53.202.0/24,,enable
+system,259,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,258,10.53.101.0/24,network-10.53.101.0/24,,enable
+system,262,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,261,10.53.102.0/24,network-10.53.102.0/24,,enable
+system,265,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,264,10.53.103.0/24,network-10.53.103.0/24,,enable
+system,268,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,267,10.53.104.0/24,network-10.53.104.0/24,,enable
+system,271,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,270,10.53.105.0/24,network-10.53.105.0/24,,enable
+system,274,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,273,10.53.106.0/24,network-10.53.106.0/24,,enable
+system,277,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,276,10.53.107.0/24,network-10.53.107.0/24,,enable
+system,515,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,514,10.53.108.0/24,network-10.53.108.0/24,,enable
+system,518,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,517,10.53.109.0/24,network-10.53.109.0/24,,enable
+system,521,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,520,10.53.111.0/24,network-10.53.111.0/24,,enable
+system,524,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,523,10.53.112.0/24,network-10.53.112.0/24,,enable
+system,280,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,279,10.53.115.0/24,Cairo_ IT_Test _115,,enable
+system,530,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,529,10.53.116.0/24,AIC RProxy Network,,enable
+system,533,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,532,10.53.117.0/24,network-10.53.117.0/24,,enable
+system,527,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,526,10.53.118.0/24,network-10.53.118.0/24,,enable
+system,286,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,285,10.53.123.0/24,network-10.53.123.0/24,,enable
+system,295,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,294,10.53.135.0/24,network-10.53.135.0/24,,enable
+system,298,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,297,10.53.140.0/24,network-10.53.140.0/24,,enable
+system,301,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,300,10.53.145.0/24,network-10.53.145.0/24,,enable
+system,506,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,505,10.53.150.0/24,network-10.53.150.0/24,,enable
+system,537,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,536,10.53.41.0/24,network-10.53.41.0/24,,enable
+system,304,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,303,10.53.222.0/24,network-10.53.222.0/24,,enable
+system,307,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,306,10.53.223.0/24,Server-Mgmt-B2,,enable
+system,310,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,309,10.53.30.0/24,AIC-Pool,,enable
+system,316,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,315,10.53.110.0/24,network-10.53.110.0/24,,enable
+system,325,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,324,10.53.180.0/24,network-10.53.180.0/24,,enable
+system,328,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,327,10.53.202.0/24,network-10.53.202.0/24,,enable
+system,3,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,360,10.53.145.10,router-10.53.145.10,,enable
+false,4,10.100.112.10,10.100.112.10,,enable
+true,6,0.0.0.0/0,Any network,2,enable
+true,358,10.53.145.0/24,network-10.53.145.0/24,,enable
+system,9,0.0.0.0,DHCP Broadcast Originator,42,absolute
+true,10,1.1.1.0/24,network-1.1.1.0/24,,enable

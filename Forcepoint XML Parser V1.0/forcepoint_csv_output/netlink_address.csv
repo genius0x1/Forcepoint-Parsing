@@ -1,0 +1,3 @@
+ip_range,netlink_ref,netlink_role,network_ref
+41.33.206.74-41.33.206.74,AIC_74,active,network-41.33.206.72/29
+41.33.212.178-41.33.212.178,AIC-100M,active,network-41.33.212.176/29

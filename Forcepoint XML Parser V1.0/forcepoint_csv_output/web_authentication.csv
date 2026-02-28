@@ -1,0 +1,2 @@
+all_interfaces,authentication_idle_timeout,authentication_timeout,enforce_https,key_length,page_ref,page_ref_key,session_handling,use_cert_bba
+true,3600,3600,false,0,Default User Authentication Pages,2,false,false

@@ -1,0 +1,916 @@
+match_destination_ref.type,match_destination_ref.value
+network_element,10.53.222.2
+network_element,8.8.8.8
+network_element | network_element,AIC-AlexVPN | AIC_Subnet
+network_element,Not Internal
+network_element | network_element | network_element | network_element | network_element,10.53.105.252 | 10.53.107.34 | 10.53.107.70 | host-10.53.150.249 | NGINX-Reverse-Proxy-VM 1
+network_element,Not Internal
+network_element | network_element | network_element | network_element | network_element,10.53.106.100 | 10.53.106.247 | Cairo_EPM_Prd_Web_Server | Docker Registry Server | Internal WordPress
+network_element,10.53.106.241
+network_element,10.53.106.241
+network_element,Git_Server
+network_element,10.53.120.0/24
+network_element,network-10.53.127.0/24
+network_element | network_element,dns1 | dns2
+network_element,Windows Update Server
+network_element | network_element,AD1 | AD2
+network_element,NLP Annotation Server
+network_element,10.53.222.0/24
+network_element,NEW_SERVER_MGMT
+network_element,network-10.53.230.0/24
+network_element,102.217.68.120
+network_element,host-10.54.135.249
+network_element,10.53.101.60
+network_element,10.53.102.60-69 
+network_element | network_element,10.53.135.243 | 10.53.135.244
+network_element,10.53.101.60
+network_element,network-10.53.107.0/24
+network_element,host-10.53.101.248
+network_element,network-10.53.107.0/24
+network_element,host-10.54.135.249
+network_element,10.53.107.253
+network_element,10.53.107.253
+network_element,10.53.107.100
+network_element,network-10.53.107.0/24
+network_element | network_element | network_element,Active Connect Client | Proxy Agent 1 | Proxy Agent 2
+network_element | network_element,AIC_Cluster1_server | host-10.53.127.11
+network_element,network-10.53.140.0/24
+network_element,host-10.53.150.249
+network_element | network_element,10.53.222.0/24 | 10.53.222.2
+network_element,host-10.53.101.248
+network_element,10.53.101.252
+network_element,10.53.106.241
+network_element,10.53.106.241
+network_element,ISE_mcit4
+network_element | network_element | network_element,Active Connect Client | Proxy Agent 1 | Proxy Agent 2
+network_element | network_element,AIC_Cluster1_server | host-10.53.127.11
+network_element,network-10.53.140.0/24
+network_element,host-10.53.150.249
+network_element,10.53.222.2
+network_element,hpc cluster 2 login node
+network_element | network_element,AIC_Cluster1_server | host-10.53.127.11
+network_element,196.219.237.216
+network_element,network-10.53.106.0/24
+network_element,106_Deny_ip
+network_element,host-10.53.101.248
+network_element,host-10.53.120.88
+network_element,hpc cluster 4 login node
+network_element,10.53.123.250
+network_element | network_element,network-10.53.127.0/24 | network-10.53.128.0/24
+network_element,network-10.53.140.0/24
+network_element | network_element,AIC_Cluster1_server | host-10.53.127.11
+network_element | network_element,AIC_Cluster1_server | host-10.53.127.11
+network_element,hpc cluster 2 login node
+network_element | network_element,dns1 | dns2
+network_element,network-10.53.127.0/24
+network_element | network_element,AIC_Cluster1_server | host-10.53.127.11
+network_element | network_element,host-10.53.128.20 | hpc cluster 2 login node
+network_element | network_element,AIC_Cluster1_server | host-10.53.127.11
+network_element,ANY
+network_element,ANY
+network_element,10.53.106.245
+network_element | network_element | network_element | network_element | network_element,10.53.106.239 | 10.53.106.244 | 10.53.106.248 | host-10.53.106.228 | IT Assets Inventory
+network_element | network_element | network_element | network_element | network_element,10.53.106.239 | 10.53.106.244 | 10.53.106.248 | host-10.53.106.228 | IT Assets Inventory
+network_element,smtp.office365.com
+network_element,Root WAF Network
+network_element | network_element | network_element,AIC RProxy Network | host-10.53.116.80 | host-10.53.118.60
+network_element | network_element,10.53.222.2 | 10.53.222.22
+network_element,network-10.53.118.0/24
+network_element,Thebes_K8s_Ingress
+network_element | network_element,Docker Registry Server | Git_Server
+network_element | network_element,10.53.222.2 | 10.53.222.22
+network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element,10.54.125.0 | 10.54.135.0/24 | 10.54.200.0/24 | AIC Operations | AIC SWD | AIC-CAI-IT | Alexandria_R&D_Team_126    | Alexandria_Software_129 | Cairo_EPM_Prd_DB | Cairo_EPM_Stg_Web | Cairo_HPC_Team_130 | Cairo_Office365_VM_123 | Cairo_R&D_Team_126 | network-10.53.106.0/24 | network-10.53.112.0/24 | network-10.53.135.0/24 | network-10.53.41.0/24
+network_element | network_element,10.53.101.60 | host-10.53.102.60
+network_element | network_element | network_element,10.53.102.60-69  | host-10.53.102.60 | host-10.53.102.69
+network_element,SCCM Server
+network_element,10.53.101.60-79
+network_element | network_element | network_element,10.53.106.100 | 10.53.106.219 | 10.53.106.220
+network_element,Not Internal
+network_element | network_element,ISE_mcit2 | ISE_mcit4
+network_element | network_element,host-10.53.116.250 | host-10.53.116.253
+network_element,network-10.53.118.0/24
+network_element,network-10.53.101.0/24
+network_element,10.53.101.252
+network_element,IT Assets Inventory
+network_element,10.53.105.252
+network_element,Not Internal
+network_element,Not Internal
+network_element | network_element,imap.gmail.com | smtp.gmail.com
+network_element | network_element,imap.gmail.com | smtp.gmail.com
+network_element,network-10.53.107.0/24
+network_element,network-10.53.123.0/24
+network_element,10.53.123.250
+network_element,network-10.53.107.0/24
+network_element | network_element,Cairo_R&D_Team_126 | network-10.53.125.0/24
+network_element,10.53.101.247
+network_element,10.53.150.245
+network_element,10.53.150.245
+network_element,10.53.150.245
+network_element | network_element,AD1 | AD2
+network_element | network_element,dns1 | dns2
+network_element | network_element,AD1 | AD2
+network_element,ssh.axisapps.io
+network_element,Not Internal
+network_element,host-10.53.106.218
+network_element,10.53.107.100
+network_element,10.53.106.240
+network_element,Git_Server
+network_element,Git_Server
+network_element,10.53.106.250
+network_element | network_element,10.54.125.0 | network-10.53.125.0/24
+network_element | network_element,AIC-AlexVPN | AIC_Subnet
+network_element | network_element,AIC-AlexVPN | AIC_Subnet
+network_element | network_element,AIC-AlexVPN | AIC_Subnet
+network_element,dns2
+network_element,ANY
+network_element | network_element,outlook.office365.com | smtp.office365.com
+network_element,network-10.53.107.0/24
+network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element,10.53.102.21 | 10.53.106.227 | 10.53.106.241 | 10.53.106.250 | 10.53.222.2 | 10.54.101.252 | 10.54.101.253 | 10.54.135.0/24 | 10.54.200.0/24 | 10.54.230.0 | Active Connect Client | AD1 | AD2 | AIC_Cluster1_server | Alexandria_R&D_Team_126    | Cairo_R&D_Team_126- | dns1 | dns2 | host-10.53.127.11 | ISE_mcit4 | Lab2 | network-10.53.101.0/24 | network-10.53.102.0/24 | network-10.53.104.0/24 | network-10.53.105.0/24 | network-10.53.106.0/24 | network-10.53.107.0/24 | network-10.53.123.0/24 | network-10.53.145.0/24 | network-10.53.150.0/24 | Printer_Vlan | Proxy Agent 1 | Proxy Agent 2 | users | Windows Update Server
+network_element | network_element,10.53.126.91 | host-10.53.126.90
+network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element,10.53.106.222 | 10.53.106.240 | 10.53.106.242 | 10.54.135.239 | AD1 | AD2 | host-10.53.106.228 | host-10.53.150.249 | host-10.54.135.249 | NLP Annotation Server
+network_element,ANY
+network_element | network_element,dns1 | dns2
+network_element,62.189.71.21
+network_element,102.217.68.120
+network_element,ANY
+network_element,host-10.53.123.250
+network_element | network_element,AD1 | AD2
+network_element,AIC.GOV.EG
+network_element,SMA1-LR
+network_element,firemon
+network_element,host-10.53.101.248
+network_element,host-10.53.106.210
+network_element,network-10.53.107.0/24
+network_element | network_element,10.53.222.2 | 10.53.222.22
+network_element | network_element | network_element,10.53.135.252-10.53.135.253 | AD1 | AD2
+network_element,cairo-NAS-Server
+network_element,host-10.53.101.246
+network_element,cairo-NAS-Server
+network_element,SIEM_Collector02
+network_element,SMA1-LR
+network_element | network_element,dns1 | dns2
+network_element,Not Internal
+network_element,10.53.101.252
+network_element,host-10.53.101.248
+network_element,AIC-GPU
+network_element,ANY
+network_element,ANY
+network_element,ANY
+network_element | network_element,10.100.232.235 | NVR_B51
+network_element,AIC.GOV.EG
+network_element,AIC.GOV.EG
+network_element,41.33.212.179
+network_element,10.53.106.244
+network_element,ddn console
+network_element,10.53.123.250
+network_element,NEW_SERVER_MGMT
+network_element,HPC OME
+network_element,NEW_SERVER_MGMT
+network_element,HPC OME
+network_element,ANY
+network_element,ANY
+network_element,10.53.107.70
+network_element,Cairo_Printer_230
+network_element,Cairo_Printer_230
+network_element,AIC KC Printer
+network_element,Windows Update Server
+network_element | network_element,AD1 | AD2
+network_element,ANY
+network_element,network-10.56.0.0/16
+network_element,network-10.56.0.0/16
+network_element,MCIT PhoneVLAN
+network_element,network-10.56.0.0/16
+network_element,VGW
+network_element,network-10.56.0.0/16
+network_element,network-10.56.0.0/16
+network_element,jabber-client
+network_element,network-10.56.0.0/16
+network_element,CUCM
+network_element | network_element,10.111.100.55 | 10.151.100.55  
+network_element,MNOT
+network_element,CUC
+network_element,network-10.56.0.0/16
+network_element,10.111.100.60
+network_element,network-10.56.0.0/16
+network_element,network-10.56.0.0/16
+network_element,xml-server
+network_element,network-10.56.0.0/16
+network_element,ISE_mcit4
+network_element | network_element,AD1 | AD2
+network_element | network_element,AD1 | AD2
+network_element | network_element,BCAAA-AIC-170 | BCAAAA-AIC
+network_element | network_element,AD1 | AD2
+network_element | network_element,dns1 | dns2
+network_element | network_element,dns1 | dns2
+network_element,Outside
+network_element | network_element | network_element | network_element,10.53.41.1 | 172.26.12.163 | 172.26.12.164 | PRA IN 1 
+network_element | network_element,AD1 | AD2
+network_element | network_element,AD1 | AD2
+network_element | network_element,AD1 | AD2
+network_element | network_element,AD1 | AD2
+network_element | network_element,10.53.41.1 | AIC JUMP POINT 
+network_element | network_element | network_element | network_element,10.53.41.1 | 172.26.12.163 | 172.26.12.164 | PRA IN 1 
+network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element,10.210.170.192 | 10.53.102.38 | 10.53.102.39 | 10.53.102.40 | 10.53.102.51 | 10.53.104.251 | 10.53.105.252 | 10.53.106.219 | 10.53.106.220 | 10.53.106.236 | 10.53.106.238 | 10.53.123.250 | 10.53.125.1 | 10.53.41.1 | 10.54.135.239 | Active Connect Client | AD1 | AD2 | Cairo_EPM_Prd_DB_Server | Cairo_EPM_Prd_Web_Server | dns1 | dns2 | emsin.mcit.gov.eg | Git_Server | host-10.53.102.31 | host-10.53.102.32 | host-10.53.102.53 | host-10.53.116.252 | host-10.53.116.253 | host-10.53.117.253 | host-10.53.117.254 | NGINX-Reverse-Proxy-VM 1 | Proxy Agent 1 | Proxy Agent 2 | vCenter Virtualization Manager | VMware Hypervisor 1 | VMware Hypervisor 2 | VMware Hypervisor 3 | VMware Hypervisor 4 | Windows Update Server
+network_element | network_element,dns1 | dns2
+network_element,10.53.106.241
+network_element | network_element,AD1 | AD2
+network_element,hpc cluster 2 login node
+network_element,Alex-Kubernetes
+network_element | network_element,MCIT-DC1 | MCIT-DC2
+network_element,AD2
+network_element,DNSServer
+network_element,ANY
+network_element | network_element,dns1 | dns2
+network_element,Alexandria_K8s_Metallb
+network_element,Alexandria_K8s_Metallb
+network_element | network_element,AD1 | AD2
+network_element | network_element,dns1 | dns2
+network_element | network_element | network_element | network_element | network_element,time.google.com | time1.google.com | time2.google.com | time3.google.com | time4.google.com
+network_element | network_element,dns1 | dns2
+network_element | network_element,AD1 | AD2
+network_element | network_element,AD1 | AD2
+network_element | network_element,AD1 | AD2
+network_element | network_element,AD1 | AD2
+network_element | network_element,DNSGoogle2 | DNSServer
+network_element | network_element,dns1 | dns2
+network_element | network_element,dns1 | dns2
+network_element | network_element,dns1 | dns2
+network_element,Cairo_Printer_230
+network_element | network_element,AD1 | AD2
+network_element,R&D Machine
+network_element | network_element,AD1 | AD2
+network_element | network_element,AD1 | AD2
+network_element,vCenter Virtualization Manager
+network_element,vCenter Virtualization Manager
+network_element,Dell Storage management
+network_element | network_element,AD1 | AD2
+network_element | network_element,AD1 | AD2
+network_element,HPC Isilon Management  
+network_element,HPC Imhotep Manegement Node
+network_element | network_element,AD1 | AD2
+network_element | network_element | network_element,10.210.225.0/255.255.255.0 | 10.210.227.0/255.255.255.0 | Kaspersky-server
+network_element | network_element | network_element | network_element | network_element | network_element | network_element,AIC-CAI-IT | Cairo_EPM_Prd_DB | Cairo_EPM_Prd_Web | Cairo_EPM_Stg_DB | Cairo_EPM_Stg_Web | network-10.53.123.0/24 | network-10.53.135.0/24
+network_element,Kaspersky-server
+network_element | network_element | network_element | network_element,AI-lab | Cairo_R&D_Team_126- | users | wireless_subnet
+network_element | network_element,dns1 | dns2
+network_element,AIC Internal WAF 
+network_element,LogRhythm_DP
+network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element,Cairo_EPM_Prd_DB | Cairo_EPM_Prd_Web | Cairo_EPM_Stg_DB | Cairo_EPM_Stg_Web | Cairo_Office365_VM_123 | network-10.53.105.0/24 | network-10.53.106.0/24 | network-10.53.135.0/24 | network-10.53.150.0/24
+network_element,LogRhythm_Dashboard
+network_element | network_element,AD1 | AD2
+network_element,10.53.150.245
+network_element,Cairo_R&D_Team_126
+network_element,network-10.53.105.0/24
+network_element,NLP System of Estimating Alimony
+network_element | network_element | network_element,10.53.126.91 | host-10.53.117.254 | host-10.53.126.90
+network_element,host-10.53.117.254
+network_element,network-10.53.118.0/24
+network_element | network_element | network_element | network_element | network_element,host-10.53.116.250 | host-10.53.116.251 | host-10.53.116.252 | host-10.53.116.253 | host-10.53.117.253
+network_element,network-10.53.128.0/24
+network_element,Hypervisors_102
+network_element,Alex_VM_Internal
+network_element,Alex-BMC
+network_element,Cairo_EPM_Prd_Web_Server
+network_element,10.54.130.0
+network_element | network_element,10.53.222.2 | 10.53.222.22
+network_element,10.53.222.0/24
+network_element,10.53.106.100
+network_element,AIC Internal WAF 
+network_element,host-10.53.106.225
+network_element,network-10.53.102.0/24
+network_element,10.53.106.241
+network_element | network_element,10.53.106.247 | Git_Server
+network_element | network_element,10.53.106.247 | Git_Server
+network_element,host-10.53.106.208
+network_element,host-10.53.106.208
+network_element,10.53.106.247
+network_element,10.53.222.2
+network_element,10.53.222.22
+network_element,10.53.150.245
+network_element,10.53.150.245
+network_element,network-10.53.127.0/24
+network_element | network_element,10.53.120.0/24 | network-10.53.128.0/24
+network_element | network_element,dns1 | dns2
+network_element,10.53.106.227
+network_element,10.54.125.0
+network_element,10.54.135.0/24
+network_element,10.54.135.0/24
+network_element,10.54.135.0/24
+network_element | network_element | network_element,10.53.107.100 | 10.54.135.248 | host-10.54.135.249
+network_element | network_element | network_element | network_element | network_element | network_element,10.53.107.100 | 10.54.135.248 | host-10.54.135.249 | Kubernetes_Master 1   | Kubernetes_Master 2 | Kubernetes_Master 3
+network_element | network_element,10.53.107.70 | network-10.53.102.0/24
+network_element,network-10.53.106.0/24
+network_element,network-10.53.106.0/24
+network_element,10.53.106.248
+network_element,LXC Management Node
+network_element | network_element,10.53.125.0/24 | Cairo_R&D_Team_126-
+network_element,network-10.53.105.0/24
+network_element,10.54.135.0/24
+network_element,network-10.53.107.0/24
+network_element | network_element,10.53.126.146 | Cairo_R&D_Team_126
+network_element,10.53.106.242
+network_element,10.54.200.0/24
+network_element | network_element,10.53.222.2 | 10.53.222.22
+network_element,10.53.106.124
+network_element,10.53.222.2
+network_element,10.53.120.3
+network_element | network_element,10.53.120.0/24 | host-10.53.120.88
+network_element,network-10.53.106.0/24
+network_element | network_element | network_element | network_element | network_element,10.53.107.243 | 10.53.107.250 | 10.53.107.251 | 10.53.107.252 | host-10.53.107.253
+network_element,10.53.106.241
+network_element,10.53.106.241
+network_element,10.53.106.244
+network_element,10.53.107.70
+network_element,AI-lab
+network_element | network_element,ai_server | Server-Mgmt-B2
+network_element,host-10.53.120.88
+network_element | network_element,AIC_Cluster1_server | hpc cluster 4 login node
+network_element,10.53.222.0/24
+network_element,NEW_SERVER_MGMT
+network_element,Docker Registry Server
+network_element,10.53.106.242
+network_element,10.53.106.244
+network_element,network-10.53.102.0/24
+network_element,10.53.106.236
+network_element,network-10.53.107.0/24
+network_element | network_element,AD1 | AD2
+network_element,10.53.106.236
+network_element,ANY
+network_element | network_element,10.53.222.2 | 10.53.222.22
+network_element,network-10.53.140.0/24
+network_element,41.33.212.178
+network_element | network_element | network_element | network_element | network_element | network_element,10.53.107.243 | 10.53.107.250 | 10.53.107.251 | 10.53.107.252 | 10.53.107.253 | 10.54.135.0/24
+network_element,10.53.106.242
+network_element,Git_Server
+network_element | network_element,10.54.135.0/24 | network-10.53.107.0/24
+network_element | network_element,dns1 | dns2
+network_element | network_element,10.53.125.0/24 | Cairo_R&D_Team_126-
+network_element,10.53.106.248
+network_element,10.53.120.0/24
+network_element,network-10.53.107.0/24
+network_element,10.53.120.3
+network_element,10.53.106.241
+network_element,10.53.106.241
+network_element,10.53.106.244
+network_element | network_element,10.53.106.244 | 10.53.106.247
+network_element,AI-lab
+network_element,Cairo_R&D_Team_126-
+network_element,10.53.130.10
+network_element,host-10.53.127.11
+network_element | network_element | network_element,10.53.106.241 | Git_Server | hpc cluster 4 login node
+network_element,Thebes_K8s_Ingress
+network_element,SW Debug VM
+network_element,AIC-GPU
+network_element,MCIT-WAF
+network_element,smtp.office365.com
+network_element,host-10.53.117.253
+network_element,host-10.53.117.254
+network_element,SW Debug VM
+network_element,VHX-AIC
+network_element,VHX-AIC
+network_element | network_element,dns1 | dns2
+network_element | network_element,AD1 | AD2
+network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element,Cairo_EPM_Prd_Web | Cairo_HPC_Team_130 | network-10.53.102.0/24 | network-10.53.104.0/24 | network-10.53.105.0/24 | network-10.53.106.0/24 | network-10.53.107.0/24 | network-10.53.117.0/24 | network-10.53.118.0/24 | network-10.53.123.0/24 | network-10.53.127.0/24 | network-10.53.128.0/24 | network-10.53.135.0/24 | network-10.53.150.0/24 | network-10.53.222.0/24 | NEW_SERVER_MGMT | server_vlan
+network_element,10.53.123.250
+network_element,NLP Annotation Tool
+network_element,10.53.106.100
+network_element,Windows Update Server
+network_element,172.23.97.16
+network_element,network-10.53.105.0/24
+network_element | network_element | network_element | network_element,AD1 | AD2 | dns1 | dns2
+network_element | network_element,AD1 | AD2
+network_element,host-10.53.117.253
+network_element,Docker Registry Server
+network_element,network-10.53.118.0/24
+network_element,AIC RProxy Network
+network_element | network_element,10.53.116.248 | 10.53.116.249
+network_element,network-10.53.117.0/24
+network_element | network_element | network_element,host-10.53.116.251 | host-10.53.116.252 | host-10.53.117.253
+network_element,Cairo_EPM_Prd_Web_Server
+network_element,host-10.53.117.254
+network_element,ANY
+network_element,network-10.53.118.0/24
+network_element,network-10.53.118.0/24
+network_element,AIC RProxy Network
+network_element,network-10.53.117.0/24
+network_element,network-10.53.118.0/24
+network_element | network_element | network_element,host-10.53.116.251 | host-10.53.116.252 | host-10.53.117.253
+network_element,host-10.53.117.254
+network_element,network-10.53.128.0/24
+network_element,ANY
+network_element,smtp.office365.com
+network_element,Mail_Relay 
+network_element,Alex-Kubernetes
+network_element,Hypervisors_102
+network_element,Alex-BMC
+network_element,Alex_VM_Internal
+network_element,Alex-Kubernetes
+network_element,Alex-Kubernetes
+network_element,Alex_VM_Internal
+network_element,Alex_VM_Internal
+network_element,Alex_VM_Internal
+network_element,Alex_VM_Internal
+network_element,Alex_VM_Internal
+network_element,Alex-Kubernetes
+network_element,10.53.123.250
+network_element | network_element | network_element,10.53.106.100 | Docker Registry Server | SW Debug VM
+network_element,Git_Server
+network_element,10.53.106.240
+network_element | network_element,AD1 | AD2
+network_element | network_element,10.53.126.91 | host-10.53.126.90
+network_element,host-10.53.101.248
+network_element,host-10.53.106.208
+network_element,host-10.53.106.208
+network_element | network_element,AD1 | AD2
+network_element,Cairo_EPM_Prd_DB_Server
+network_element,host-10.53.101.248
+network_element,host-10.53.101.248
+network_element,AIC Internal WAF 
+network_element,10.210.53.0/255.255.255.0
+network_element,10.53.102.21
+network_element,network-10.53.106.0/24
+network_element,10.53.106.100
+network_element | network_element | network_element,10.53.106.100 | Docker Registry Server | host-10.53.106.210
+network_element,10.53.106.240
+network_element,10.53.106.241
+network_element,10.53.106.247
+network_element,Git_Server
+network_element,Cairo_EPM_Prd_Web_Server
+network_element,10.53.120.0/24
+network_element,hpc cluster 4 login node
+network_element,host-10.53.120.88
+network_element,network-10.53.127.0/24
+network_element,network-10.53.128.0/24
+network_element,hpc cluster 2 login node
+network_element,Windows Update Server
+network_element | network_element,dns1 | dns2
+network_element | network_element,AD1 | AD2
+network_element | network_element,10.53.222.0/24 | NEW_SERVER_MGMT
+network_element | network_element,10.53.222.2 | 10.53.222.22
+network_element,network-10.53.230.0/24
+network_element,network-10.53.128.0/24
+network_element,Cairo_EPM_Stg_Web
+network_element | network_element,10.53.222.2 | 10.53.222.22
+network_element | network_element,10.53.106.240 | Wazuh server  
+network_element,ISE_mcit2
+network_element | network_element,AD1 | AD2
+network_element | network_element,Cairo_Office365_VM_123 | network-10.53.135.0/24
+network_element,Cairo_EPM_Prd_Web_Server
+network_element,Cairo_EPM_Prd_DB_Server
+network_element,10.53.123.250
+network_element,network-10.53.101.0/24
+network_element,Windows Update Server
+network_element,Cairo_EPM_Prd_Web
+network_element,Cairo_EPM_Prd_DB
+network_element,Cairo_EPM_Stg_DB_Server
+network_element,Cairo_EPM_Stg_Web_Server
+network_element,Cairo_EPM_Stg_Web_Server
+network_element,Cairo_EPM_Stg_Web
+network_element,Cairo_EPM_Stg_DB_Server
+network_element,network-10.53.101.0/24
+network_element | network_element | network_element | network_element,Cairo_EPM_Prd_DB | Cairo_EPM_Prd_Web | Cairo_EPM_Stg_DB | Cairo_EPM_Stg_Web
+network_element,Cairo_EPM_Stg_DB
+network_element,Cairo_EPM_Stg_DB_Server
+network_element,network-10.53.107.0/24
+network_element | network_element,10.53.222.2 | 10.53.222.22
+network_element | network_element,host-10.53.106.224 | host-10.53.106.225
+network_element,host-10.53.106.225
+network_element | network_element,host-10.54.135.135 | host-10.54.135.235
+network_element,host-10.53.135.100
+network_element | network_element,SCCM Server | SCCM_Server2
+network_element | network_element,SCCM Server | SCCM_Server2
+network_element,10.53.104.60-69
+network_element,SCCM Server
+network_element | network_element,10.54.135.0/24 | network-10.53.123.0/24
+network_element,10.54.135.0/24
+network_element | network_element | network_element | network_element | network_element | network_element | network_element,Cairo_ IT_Test _115 | network-10.53.105.0/24 | network-10.53.106.0/24 | network-10.53.107.0/24 | network-10.53.123.0/24 | network-10.53.145.0/24 | network-10.53.150.0/24
+network_element | network_element,dns1 | dns2
+network_element,network-10.53.123.0/24
+network_element,10.53.106.241
+network_element,10.53.106.247
+network_element,10.53.123.250
+network_element,ANY
+network_element,10.53.222.22
+network_element,10.53.222.2
+network_element,10.53.222.2
+network_element,SW Debug VM
+network_element,102.128.176.211
+network_element,network-10.53.106.0/24
+network_element,10.53.106.247
+network_element,10.53.106.100
+network_element,network-10.53.127.0/24
+network_element,10.53.106.100
+network_element,network-10.53.106.0/24
+network_element,network-10.53.127.0/24
+network_element | network_element,10.53.120.0/24 | network-10.53.128.0/24
+network_element,10.53.120.0/24
+network_element | network_element,AD1 | AD2
+network_element,network-10.53.222.0/24
+network_element,www1.aic.gov.eg
+network_element,host-172.26.80.129
+network_element,AIC-SP-stg
+network_element,AIC-SP-stg
+network_element | network_element,AIC-AD-01 | AIC-AD-02
+network_element,AIC-DB-stg
+network_element,host-10.53.129.1
+network_element,network-10.53.230.0/24
+network_element,network-10.53.101.0/24
+network_element,network-10.53.105.0/24
+network_element,network-10.53.107.0/24
+network_element,network-10.53.150.0/24
+network_element | network_element,dns1 | dns2
+network_element,10.53.106.250
+network_element,102.217.68.120
+network_element,Not Internal
+network_element,10.53.150.245
+network_element,10.53.106.227
+network_element,10.53.106.240
+network_element,10.53.135.252-10.53.135.253
+network_element,Windows Update Server
+network_element,AIC SWD
+network_element,network-10.54.129.0/24
+network_element,10.53.222.22
+network_element,network-10.53.107.0/24
+network_element,Docker Registry Backed
+network_element,10.53.106.222
+network_element,3.73.48.114
+network_element,10.53.106.222
+network_element,NLP Annotation Tool
+network_element,network-10.53.107.0/24
+network_element,10.53.150.245
+network_element,NLP Annotation Tool
+network_element,NLP System of Estimating Alimony
+network_element,GIS Land Incursion Data Collection
+network_element,NLP Annotation Server
+network_element,Diabetic Retinopathy Production VM
+network_element | network_element | network_element | network_element | network_element,10.53.120.0/24 | 10.53.222.0/24 | network-10.53.127.0/24 | network-10.53.128.0/24 | NEW_SERVER_MGMT
+network_element,host-10.53.127.11
+network_element,10.53.106.248
+network_element | network_element,network-10.53.106.0/24 | network-10.53.107.0/24
+network_element,host-10.53.127.11
+network_element,10.53.106.242
+network_element,network-10.53.107.0/24
+network_element,10.53.106.236
+network_element,10.53.105.252
+network_element,NLP System of Estimating Alimony
+network_element,10.53.101.253
+network_element | network_element | network_element,10.54.135.0/24 | network-10.53.107.0/24 | network-10.53.41.0/24
+network_element,network-10.53.118.0/24
+network_element | network_element,AD1 | AD2
+network_element,IT Assets Inventory
+network_element,10.53.106.239
+network_element,10.53.106.227
+network_element,10.53.150.248
+network_element,10.53.150.248
+network_element,host-10.53.106.228
+network_element,host-10.53.106.228
+network_element,10.53.106.241
+network_element,10.53.106.241
+network_element,10.53.106.240
+network_element,10.53.150.245
+network_element,GIS Land Incursion Data Collection
+network_element,network-10.53.107.0/24
+network_element,10.53.107.70
+network_element,network-10.53.150.0/24
+network_element,vCenter Virtualization Manager
+network_element | network_element,host-10.53.102.31 | host-10.53.102.32
+network_element,10.53.106.244
+network_element,host-10.53.126.46
+network_element,Docker Registry Server
+network_element,AIC_Subnet
+network_element,Windows Update Server
+network_element,network-10.53.107.0/24
+network_element,ANY
+network_element,10.54.135.0/24
+network_element,network-10.53.102.0/24
+network_element,Diabetic Retinopathy Production VM
+network_element,NLP Annotation Server
+network_element,host-10.54.135.249
+network_element | network_element | network_element,10.54.135.246 | 10.54.135.247 | 10.54.135.248
+network_element,NLP Annotation Server
+network_element,NLP Annotation Server
+network_element | network_element,10.53.106.241 | 10.53.222.0/24
+network_element,10.53.101.252
+network_element,network-10.53.150.0/24
+network_element,network-10.53.150.0/24
+network_element,10.53.106.238
+network_element,102.128.176.211
+network_element | network_element | network_element | network_element | network_element,10.53.107.243 | 10.53.107.250 | 10.53.107.251 | 10.53.107.252 | 10.53.107.253
+network_element,10.53.106.241
+network_element,host-10.53.101.248
+network_element,host-10.53.101.248
+network_element,network-10.53.127.0/24
+network_element,10.53.222.0/24
+network_element,10.53.222.3
+network_element | network_element | network_element | network_element | network_element,10.53.107.243 | 10.53.107.250 | 10.53.107.251 | 10.53.107.252 | host-10.53.107.253
+network_element | network_element,10.53.222.3 | AIC_Cluster1_server
+network_element,10.53.101.252
+network_element,10.53.222.0/24
+network_element | network_element,10.53.106.236 | 10.53.106.245
+network_element,10.53.222.3
+network_element,196.219.237.216
+network_element | network_element,region1.v2.argotunnel.com | region2.v2.argotunnel.com
+network_element,10.53.101.252
+network_element,10.53.102.21
+network_element,10.53.123.250
+network_element,10.53.101.249
+network_element,ANY
+network_element,ANY
+network_element,ANY
+network_element,ANY
+network_element,ANY
+network_element,outlook.office365.com
+network_element,smtp.office365.com
+network_element,hpc cluster 4 login node
+network_element,10.53.222.0/24
+network_element,10.53.101.250
+network_element | network_element | network_element | network_element,AD1 | AD2 | dns1 | dns2
+network_element | network_element,10.54.101.252 | 10.54.101.253
+network_element,host-10.53.107.253
+network_element,host-10.53.107.253
+network_element,network-10.53.105.0/24
+network_element,host-10.53.107.253
+network_element | network_element,10.53.130.0/24 | users
+network_element,network-10.53.105.0/24
+network_element,network-10.53.145.0/24
+network_element,10.54.200.0/24
+network_element,10.54.230.0
+network_element,10.53.106.250
+network_element,test-server-pool
+network_element,test-server-pool
+network_element,10.100.232.235
+network_element,network-41.33.212.176/29
+network_element,10.53.107.253
+network_element,10.53.107.244
+network_element,10.53.106.244
+network_element,host-41.33.152.35
+network_element,AIC_Cluster_Publishing1
+network_element,network-10.53.140.0/24
+network_element | network_element,AI-lab | Cairo_ IT_Test _115
+network_element,network-10.53.140.0/24
+network_element,10.53.102.21
+network_element | network_element,10.53.120.0/24 | network-10.53.222.0/24
+network_element,network-10.53.222.0/24
+network_element | network_element,network-10.53.127.0/24 | network-10.53.128.0/24
+network_element,Cairo_Printer_230
+network_element,network-10.53.145.0/24
+network_element,ANY
+network_element | network_element,10.53.222.0/24 | Server-Mgmt-B2
+network_element | network_element,10.53.106.241 | host-10.53.120.88
+network_element | network_element | network_element | network_element,10.53.106.244 | 10.53.106.247 | 10.53.106.248 | Git_Server
+network_element,10.53.130.0/24
+network_element | network_element,10.53.120.0/24 | network-10.53.127.0/24
+network_element | network_element,network-10.53.127.0/24 | network-10.53.222.0/24
+network_element,server_vlan
+network_element,server_vlan
+network_element | network_element,10.53.222.0/24 | 10.53.222.2
+network_element | network_element,10.53.222.0/24 | 10.53.222.2
+network_element,10.53.222.0/24
+network_element | network_element,AIC_Cluster1_server | hpc cluster 4 login node
+network_element,NEW_SERVER_MGMT
+network_element,10.53.107.253
+network_element | network_element,dns1 | dns2
+network_element,ANY
+network_element | network_element,AD1 | AD2
+network_element | network_element,AD1 | AD2
+network_element,Development SQL Server
+network_element | network_element,dns1 | dns2
+network_element,Internal WordPress
+network_element,10.210.18.139
+network_element,ANY
+network_element,Cairo_Printer_230
+network_element,10.53.107.244
+network_element,ANY
+network_element,196.219.237.216
+network_element | network_element,AD1 | AD2
+network_element,network-10.53.101.0/24
+network_element,10.53.101.247
+network_element,10.53.101.253
+network_element | network_element,AD1 | AD2
+network_element,10.53.123.250
+network_element,10.53.101.252
+network_element,network-10.53.101.0/24
+network_element,hpc cluster 4 login node
+network_element,hpc cluster 4 login node
+network_element,network-10.53.123.0/24
+network_element,10.54.135.0/24
+network_element,network-10.53.123.0/24
+network_element,10.53.123.250
+network_element,LogRhythm_Dashboard
+network_element,10.53.123.250
+network_element | network_element,10.53.123.250 | smtp.office365.com
+network_element,outlook.office365.com
+network_element | network_element,10.54.200.0/24 | AIC Operations
+network_element,smtp.office365.com
+network_element,smtp.office365.com
+network_element | network_element,dns1 | dns2
+network_element,10.53.123.250
+network_element | network_element,10.53.120.0/24 | network-10.53.128.0/24
+network_element,10.53.106.245
+network_element,10.53.106.245
+network_element | network_element,hpc cluster 2 login node | hpc cluster 4 login node
+network_element,HPC ClusterIVClient
+network_element,10.53.106.241
+network_element,10.53.106.241
+network_element,10.53.106.241
+network_element,ANY
+network_element | network_element,outlook.office365 | smtp.office365
+network_element,ANY
+network_element | network_element | network_element | network_element,172.26.93.31 | 172.26.93.32 | AIC-AD-01 | AIC-AD-02
+network_element | network_element,AIC-SP-APP 01 | AIC-SP-APP 02
+network_element | network_element,AIC-SP-WEB 01 | AIC-SP-WEB 02
+network_element,Git_Server
+network_element,OWA-NEW-Real-IP
+network_element | network_element,10.53.101.251 | 10.53.123.250
+network_element | network_element,dns1 | dns2
+network_element | network_element,AIC-DHCP | AIC_DHCP_secondary
+network_element,HR services_H
+network_element,Not Internal
+network_element | network_element | network_element,hpc cluster 2 login node | hpc cluster 4 login node | HPC ClusterIVClient
+network_element,10.53.106.250
+network_element,LXC Management Node
+network_element,AIC-SP-stg
+network_element,network-10.53.105.0/24
+network_element,10.53.135.135-10.53.135.235
+network_element,10.53.135.252-10.53.135.253
+network_element,LXC Management Node
+network_element | network_element | network_element | network_element | network_element,AI-lab | AI_Core_switch_DNS | AI_Wireless | Cairo_R&D_Team_126- | users
+network_element,10.53.106.244
+network_element,users
+network_element,Git_Server
+network_element,Docker Registry Backed
+network_element,Gitlab Runner
+network_element,Docker Registry Backed
+network_element,Docker Registry Server
+network_element | network_element,41.33.212.179 | 41.33.212.181
+network_element | network_element | network_element | network_element,41.179.247.133 | 41.179.247.136 | network-41.33.212.176/29 | NLP Demo
+network_element | network_element | network_element | network_element,41.179.247.133 | 41.179.247.136 | 41.33.212.180 | NLP Demo
+network_element | network_element | network_element,41.33.212.179 | 41.33.212.181 | 41.33.212.182
+network_element | network_element,ISE_mcit2 | ISE_mcit4
+network_element | network_element | network_element | network_element | network_element,Active Connect Client | AD1 | AD2 | Proxy Agent 1 | Proxy Agent 2
+network_element | network_element | network_element | network_element | network_element,Active Connect Client | AD1 | AD2 | Proxy Agent 1 | Proxy Agent 2
+network_element,network-10.53.135.0/24
+network_element | network_element,Log_collector | log_collector2
+network_element | network_element | network_element,AIC_Console_Admin | Log_collector | log_collector2
+network_element,Windows Update Server
+network_element | network_element,AD1 | AD2
+network_element,network-10.53.222.0/24
+network_element | network_element,AD1 | AD2
+network_element | network_element,AD1 | AD2
+network_element | network_element,AD1 | AD2
+network_element,Outside
+network_element,network-10.53.104.0/24
+network_element,network-10.53.145.0/24
+network_element | network_element,8.8.8.8 | host-10.53.102.1
+network_element,Not Internal
+network_element,Outside
+network_element | network_element,network-10.53.107.0/24 | network-10.53.135.0/24
+network_element | network_element,network-10.53.106.0/24 | network-10.53.107.0/24
+network_element | network_element,network-10.53.106.0/24 | network-10.53.107.0/24
+network_element,10.53.102.21
+network_element,network-10.53.102.0/24
+network_element,10.53.102.21
+network_element,network-10.53.104.0/24
+network_element | network_element | network_element | network_element | network_element | network_element | network_element | network_element,10.53.121.251 | 10.53.121.252 | 10.53.121.253 | AI_users(1) | network-10.53.102.0/24 | network-10.53.104.0/24 | network-10.53.123.0/24 | network-10.53.135.0/24
+network_element | network_element,Log_collector | log_collector2
+network_element,network-10.53.101.0/24
+network_element,network-10.53.101.0/24
+network_element,10.53.107.253
+network_element,IT Assets Inventory
+network_element,network-10.53.145.0/24
+network_element,10.54.200.0/24
+network_element,10.53.106.227
+network_element,network-10.53.102.0/24
+network_element,10.53.102.21
+network_element,network-10.53.104.0/24
+network_element | network_element | network_element | network_element | network_element,10.53.121.251 | 10.53.121.252 | 10.53.121.253 | AD1 | AD2
+network_element,network-10.53.123.0/24
+network_element,network-10.53.135.0/24
+network_element,users
+network_element,ISE_mcit4
+network_element,network-10.53.105.0/24
+network_element,network-10.53.107.0/24
+network_element,host-10.53.150.249
+network_element,host-10.53.150.249
+network_element | network_element,host-10.53.107.24 | host-10.53.107.25
+network_element,AIC_Cluster1_server
+network_element | network_element,10.53.135.135-10.53.135.235 | 10.53.135.252-10.53.135.253
+network_element,10.53.135.252-10.53.135.253
+network_element,10.53.135.252-10.53.135.253
+network_element | network_element,10.53.222.2 | 10.53.222.22
+network_element | network_element,AD1 | AD2
+network_element,network-10.53.104.0/24
+network_element,network-10.53.101.0/24
+network_element,network-10.53.103.0/24
+network_element,10.53.123.250
+network_element,network-10.53.107.0/24
+network_element,10.53.74.1
+network_element,host-10.53.120.88
+network_element,host-10.53.120.88
+network_element,port11_nat_address_10.53.120.1
+network_element,10.54.200.0/24
+network_element,vaccaine
+network_element,10.53.222.2
+network_element,Cairo_R&D_Team_126-
+network_element,port11_nat_address_10.53.120.1
+network_element | network_element,10.210.200.17 | host-10.210.200.18
+network_element | network_element,host-10.53.120.88 | port11_nat_address_10.53.120.1
+network_element,10.100.112.10
+network_element,Any Network any
+network_element,Outside
+network_element | network_element,host-10.53.127.50 | hpc cluster 4 login node
+network_element,host-10.53.120.1
+network_element,AIC_Cluster1_nat_address_10.53.127.1
+network_element,10.53.222.2
+network_element,10.53.222.0/24
+network_element,10.53.120.0/24
+network_element,HPC OME
+network_element,NEW_SERVER_MGMT
+network_element,NEW_SERVER_MGMT
+network_element,NEW_SERVER_MGMT
+network_element,host-41.33.152.35
+network_element,10.53.222.2
+network_element | network_element,AIC_Cluster1_server | hpc cluster 2 login node
+network_element,Outside
+network_element,10.53.222.2
+network_element,New_Server_Data_nat_address_10.53.222.1
+network_element | network_element,AI_Cluster-Master-New | AIC-Context-New
+network_element,Outside
+network_element | network_element,AI_Cluster-Master-New | AIC-Context-New
+network_element,Outside
+match_expression,MatchExpression_1664655848301_26
+match_expression,MatchExpression_1664655848304_28
+network_element,NVR_B51
+network_element,Outside
+network_element | network_element | network_element | network_element | network_element,10.53.222.0/24 | New_Server_Data_nat_address_10.53.222.1 | New_Server_MGM_nat_address_10.53.223.1 | Server-Mgmt-B2 | server_vlan
+network_element | network_element,camera_workstation | finger_print
+network_element,Outside
+network_element,camer
+network_element,camera
+network_element,10.53.200.167
+network_element,host-41.33.152.35
+network_element,host-41.33.152.35
+network_element,wireless_subnet
+network_element | network_element,camer | camera2
+network_element,server_vlan
+match_expression,MatchExpression_1664655848297_25
+network_element,Printer_Vlan
+network_element | network_element,host-10.53.128.20 | hpc cluster 2 login node
+network_element,Outside
+network_element,Outside
+network_element | network_element,dns | dns_2
+network_element,Outside
+network_element,10.53.200.22
+network_element,video conference
+network_element,video conference
+network_element,Outside
+network_element,Outside
+network_element,Outside
+network_element,Aic-Vlans
+network_element,AIC_Cluster1_server
+network_element,10.53.222.0/24
+network_element,10.53.222.0/24
+network_element,10.53.222.0/24
+network_element,NEW_SERVER_MGMT
+network_element,NEW_SERVER_MGMT
+network_element,Outside
+network_element,10.53.222.0/24
+network_element | network_element,AIC_DNS1 | AIC_DNS2
+network_element,Core-Range
+network_element | network_element,AIC_Cluster1_server | hpc cluster 2 login node
+network_element | network_element,network-10.53.127.0/24 | NEW_SERVER_MGMT
+network_element | network_element,10.210.200.17 | host-10.210.200.18
+network_element | network_element,ARROW | OPEN-TEXT
+network_element,Outside
+network_element,Outside
+network_element,Outside
+network_element,AIC_Cluster1_server
+network_element,hpc cluster 2 login node
+network_element,Outside
+network_element,AIC_Cluster1_server
+network_element,10.53.222.0/24
+network_element,hpc cluster 2 login node
+network_element | network_element,10.53.222.2 | 10.53.222.22
+network_element,AIC_Cluster1_server
+network_element,Git Server
+network_element,Core-Range
+network_element | network_element,13.95.90.49 | 168.63.15.84
+network_element,Outside
+network_element,IDM
+network_element | network_element,AIC_DNS1 | AIC_DNS2
+network_element,Core-Range
+network_element | network_element,AIC_DNS1 | AIC_DNS2
+network_element,Core-Range
+network_element,Outside
+network_element,Outside
+network_element,Core-Range
+network_element,Core-Range
+network_element,Core-Range
+network_element,Core-Range
+network_element,Core-Range
+network_element,Core-Range
+network_element,Core-Range
+network_element,HPC-AI-webzone
+network_element,ANY
+network_element,Not Internal
+network_element,network-41.33.212.176/29

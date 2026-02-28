@@ -1,0 +1,5 @@
+auth_request_source,automatic_default_route,backup_heartbeat,backup_mgt,db_key,domain_specific_dns_queries_source,dynamic_ip,igmp_mode,name,network_value,nicid,nodeid,outgoing,pppoa,pppoe,primary_heartbeat,primary_mgt,rank,reverse_connection,vrrp,mvia_address.address
+false,false,false,false,1,false,false,none,NDI-1-1.1.1.1,1.1.1.0/24,1,1,false,false,false,true,false,0,false,false,1.1.1.1
+false,false,false,false,42,false,false,none,NDI-0-10.53.145.100,10.53.145.0/24,0,1,true,false,false,false,true,0,false,false,10.53.145.100
+false,false,false,false,2,false,false,none,NDI-1-1.1.1.2,1.1.1.0/24,1,2,false,false,false,true,false,0,false,false,1.1.1.2
+false,false,false,false,43,false,false,none,NDI-0-10.53.145.101,10.53.145.0/24,0,2,true,false,false,false,true,0,false,false,10.53.145.101

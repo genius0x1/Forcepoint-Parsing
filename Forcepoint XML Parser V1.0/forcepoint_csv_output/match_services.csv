@@ -1,0 +1,916 @@
+match_service_ref.type,match_service_ref.value,match_service_ref.ref_key
+string,none,
+service,DNS,444
+service,ANY,
+service | service | service | service | service | service,10443 | 4001-4002 | 8013 | 8015 | HTTP | HTTPS,330 | 332
+service | service | service,HTTP | HTTPS | ICMP,330 | 332 | 121
+service | service,ssh | tcp_service_22,
+service | service,HTTP | HTTPS,330 | 332
+service,3000,
+service,3000,
+service | service | service,HTTP | HTTPS | tcp_service_22,330 | 332
+service | service,ICMP | tcp_service_22,121
+service,tcp_service_22,
+service | service,123 | tcp_service_123,
+service | service | service | service | service | service | service | service | service | service | service | service,137 | 137_TCP | 138 | 138/TCP | 139 | 445 | 8530-8531 | HTTP | HTTPS | TCP_139 | tcp_service_135 | udp_service_135,330 | 332
+service | service | service | service | service | service | service | service | service | service | service | service | service | service,3268-3269 | 445 | 464 | 49152-65535-tcp | 88 | 88-tcp | DNS | Kpasswd | LDAP (TCP) | LDAP (UDP) | LDAPS (TCP) | NTP (TCP) | NTP (UDP) | tcp_service_135,444 | 345 | 347 | 457 | 348 | 362 | 425
+service | service | service | service | service | service | service | service | service,10001 | 10015-10016 | 8000tcp | 8091 | 9000 | 9443 | HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service | service | service,8000tcp | 8080 | 8081 | HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service | service,8080 | HTTP | HTTPS | Remote Desktop | tcp_service_22,330 | 332 | 281
+service | service | service | service | service | service,161 | 9100 | 9101 | HTTP | HTTPS | TCP_161,330 | 332
+service,5555,
+service,6443,
+service | service | service | service | service | service | service | service | service | service | service,111 | 137 | 138 | 300-306 | 300t0306 | 304-405 | 445 | NFS (TCP) | NFS (UDP) | TCP_139 | udp_service_111,12046 | 423
+service,8080,
+service,8000tcp,
+service | service | service | service | service | service | service | service | service | service | service | service | service | service,"111 | 137 | 138 | 300-306 | 300t0306 | 445 | 9021, | 9022 | MSRPC (TCP) | MSRPC (UDP) | NFS (TCP) | NFS (UDP) | TCP_139 | udp_service_111",280 | 10013 | 12046 | 423
+service,31500,
+service | service | service | service | service | service | service | service | service,139 | 445 | NetBIOS Datagram | NetBIOS-NS (UDP) | NetBIOS-SSN | Sun RPC (UDP) | tcp_service_111 | tcp_service_2049 | udp_service_2049,420 | 422 | 356 | 437
+service | service | service,HTTP | HTTPS | ssh,330 | 332
+service,6443,
+service | service | service,HTTP | HTTPS | ssh,330 | 332
+service,6443,
+service,6443,
+service | service,HTTP | HTTPS,330 | 332
+service,Remote Desktop,281
+service | service | service,SSH | ssh | tcp_service_22,380
+service | service | service | service,5900 | 9090 | Remote Desktop | tcp_service_22,281
+service | service,3000-9000 | 9090,
+service | service | service,8000tcp | SSH | tcp_service_22,380
+service | service | service | service | service | service | service,137 | 138 | 445 | tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service | service | service,137 | 138 | 445 | TCP_139,
+service,tcp_service_22,
+service,tcp_service_22,
+service,8445,
+service,Remote Desktop,281
+service | service,SSH | tcp_service_22,380
+service | service | service | service | service,5900 | 9090 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service | service,3000-9000 | 9090,
+service | service | service,8000tcp | SSH | tcp_service_22,380
+service | service | service,8000-8008 | 8000-8008/tcp | tcp_service_22,
+service,tcp_service_22,
+service,range-14821,
+service | service | service,tcp_service_22 | tcp_service_443 | tcp_service_80,
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service | service | service | service | service | service | service,137 | 138 | 139 | 445 | tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service,8001-8009 | 8001-8009udp,
+service | service | service,8000-8008 | 8000-8008/tcp | tcp_service_22,
+service,tcp_service_25,
+service | service | service,tcp_service_22 | tcp_service_443 | tcp_service_80,
+service | service | service | service | service | service | service | service,3000 | 8000tcp | 8080 | 8081 | RDP | tcp_service_22 | tcp_service_443 | tcp_service_80,172
+service | service | service | service,tcp_service_123 | tcp_service_53 | udp_service_123 | udp_service_53,
+service | service | service | service,tcp_service_123 | tcp_service_53 | udp_service_123 | udp_service_53,
+service | service,tcp_service_53 | udp_service_53,
+service | service | service | service,tcp_service_123 | tcp_service_53 | udp_service_123 | udp_service_53,
+service | service,8001-8009 | 8001-8009udp,
+service,tcp_service_22,
+service | service,Ping | tcp_service_22,453
+service,tcp_service_22,
+service | service | service | service,tcp_service_443 | tcp_service_53 | tcp_service_80 | udp_service_53,
+service | service,tcp_service_443 | tcp_service_80,
+service | service | service | service | service | service | service,8080 | 8081 | ICMP | Remote Desktop | tcp_service_22 | tcp_service_443 | tcp_service_80,121 | 281
+service | service,tcp_service_443 | tcp_service_80,
+service | service,tcp_service_443 | tcp_service_80,
+service | service,587 | SMTP Submission Service,12005
+service | service,HTTP | HTTPS,330 | 332
+service,ANY,
+service | service | service,SSH | ssh | tcp_service_22,380
+service | service | service | service | service,3000-10000 | 30000-32768 | HTTP | HTTPS | SSH,330 | 332 | 380
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,HTTP | HTTPS | SSH,330 | 332 | 380
+application | service | service,SSH | ssh | tcp_service_22,790019
+service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service,10123tcp | 1024-65535 | 2701 | 2701-2702 | 2702 | 389/TCP | 445 | 49152-65535-tcp | 63000-64000 | 8530-8531 | DHCP | Discard Protocol (UDP) | DNS (UDP) | HTTP | HTTPS | LDAPS (TCP) | LDAPS (UDP) | Microsoft Global Catalog LDAP (TCP) | Microsoft Global Catalog LDAPS (TCP) | MSRPC (TCP) | NetBIOS Datagram | NetBIOS-NS (UDP) | Remote Desktop | SMB-TCP | TCP_139 | udp_service_135,413 | 414 | 330 | 332 | 348 | 458 | 12038 | 12040 | 280 | 420 | 422 | 281
+service | service | service,DNS | DNS (TCP with SafeSearch) | DNS (UDP),444 | 12069 | 414
+service,8080,
+service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service,10123tcp | 1024-65535 | 2701 | 2701-2702 | 2702 | 389/TCP | 49152-65535-tcp | 63000-64000 | 8530-8531 | DHCP | Discard Protocol (UDP) | DNS (UDP) | HTTP | HTTPS | LDAPS (TCP) | LDAPS (UDP) | Microsoft Global Catalog LDAP (TCP) | Microsoft Global Catalog LDAPS (TCP) | MSRPC (TCP) | NetBIOS Datagram | NetBIOS-NS (UDP) | Remote Desktop | SMB-TCP | TCP_139 | udp_service_135,413 | 414 | 330 | 332 | 348 | 458 | 12038 | 12040 | 280 | 420 | 422 | 281
+service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service,111 | 137 | 137_TCP | 138 | 445 | NetBIOS-NS (TCP) | NetBIOS-NS (UDP) | NetBIOS-SSN | NFS (TCP) | NFS (UDP) | SMB-TCP | Sun RPC (TCP) | Sun RPC (UDP) | TCP_139 | tcp_service_2049 | udp_service_111 | udp_service_2049,355 | 422 | 356 | 12046 | 423 | 382 | 437
+service,ANY,
+service | service,HTTP | HTTPS,330 | 332
+service | service,RADIUS (Authentication) | TACACS (TCP),428 | 384
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service | service | service,31000-31199 | 5000-6999 | 8080 | 8081 | HTTP | HTTPS,330 | 332
+service | service | service | service | service | service | service | service | service,137 | 138 | 139 | 445 | Sun RPC (UDP) | TCP_139 | tcp_service_111 | tcp_service_2049 | udp_service_2049,437
+service,Ping,453
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,HTTP | HTTPS | Photuris (ICMP),330 | 332 | 365
+service | service,HTTP | HTTPS,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,465 | IMAPS | SMTP Submission Service,336 | 12005
+service | service | service,465 | IMAPS | SMTP Submission Service,336 | 12005
+service | service,3000-10000 | 30000-32768,
+service,Remote Desktop,281
+service,SMTP,376
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service,5900 | 9090 | Remote Desktop | tcp_service_22,281
+service | service | service | service,tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service | service | service,5432 | 5555 | 8888 | 9000,
+service | service | service | service,5432 | 5555 | 8888 | 9000,
+service,5555,
+service | service | service,LDAP (TCP) | LDAP (UDP) | LDAPS (TCP),347 | 457 | 348
+service | service,DNS (TCP) | DNS (UDP),321 | 414
+service | service | service | service | service | service | service | service | service | service | service | service | service,3268-3269 | 445 | 464 | 49152:49215 | 88 | 88-tcp | AD_services | Kpasswd | LDAP (TCP) | LDAP (UDP) | LDAPS (TCP) | Remote Desktop | tcp_service_135,345 | 347 | 457 | 348 | 281
+service | service,ssh | tcp_service_22,
+service | service,ssh | tcp_service_22,
+service | service | service,20-21/tcp | 30000-30099 | 5555,
+service | service | service,6443 | HTTP | HTTPS,330 | 332
+service | service,1514-1515 | 55000,
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service | service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22 | tcp_service_443 | tcp_service_80,330 | 332 | 380
+service | service,ssh | tcp_service_22,
+service | service | service | service,5900 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service,ANY,
+service,ANY,
+service,ANY,
+service,Dest. Unreachable (Port Unreachable),51
+service,ANY,
+service | service | service,IMAPS | IMAPS (with decryption) | SMTP Submission Service,336 | 12033 | 12005
+service | service | service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22 | tcp_service_443 | tcp_service_80,330 | 332 | 380
+service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service,161 | 2222 | 3000 | 3000-10000 | 30000-32768 | 54323 | 5900 | 5900-6923 | 6100 | 8006 | 8080 | 8081 | 8088 | 8089 | 8445 | 8834 | 9000 | 9090 | 9101 | DNS (TCP) | DNS (UDP) | Echo Reply (Any Code) | Echo Reply (No Code) | Echo Request (Any Code) | Echo Request (No Code) | HTTP | HTTP proxy | HTTPS | JetDirect | Microsoft-DS | NetBIOS Datagram | NetBIOS-NS (UDP) | NetBIOS-SSN | NFS (TCP) | NFS (UDP) | NTP (TCP) | NTP (UDP) | Ping | Remote Desktop | SNMP (TCP) | Squid HTTP proxy | SSH | Sun RPC (TCP) | Sun RPC (UDP) | tcp_service_22 | tcp_service_8000,321 | 414 | 17 | 18 | 19 | 20 | 330 | 10028 | 332 | 12058 | 351 | 420 | 422 | 356 | 12046 | 423 | 362 | 425 | 453 | 281 | 378 | 12018 | 380 | 382 | 437
+service | service | service | service | service,5900 | RDP | RDP remote | ssh | tcp_service_22,172
+service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service,10001 | 10015-10016 | 1514-1515 | 3000-9000 | 49152-65535-tcp | 55000 | 5900 | 6443 | 6900 | 8091 | 8530-8531 | 9000 | 9090 | 9443 | DNS (TCP) | DNS (UDP) | Kerberos | LDAP (TCP) | LDAP (UDP) | LDAPS (with decryption) | Microsoft Global Catalog LDAP (TCP) | Microsoft Global Catalog LDAPS (TCP) | Microsoft-DS | MSRPC (TCP) | NTP (TCP) | NTP (UDP) | Remote Desktop | tcp_service_8000 | udp_service_88,321 | 414 | 343 | 347 | 457 | 12044 | 12038 | 12040 | 351 | 280 | 362 | 425 | 281
+service,ANY,
+service | service,DNS (TCP) | NTP (UDP),321 | 425
+service | service,16106-16114 | 5902,
+service | service,5555 | 5555-udp,
+service | service | service | service | service | service | service | service | service | service | service,27017 | DNS (TCP) | FTP | FTP-Control | HTTP | HTTPS | IMAPS | Remote Desktop | SMTP Submission Service | SSH | tcp_service_8000,321 | 325 | 330 | 332 | 336 | 281 | 12005 | 380
+service,SMTP,376
+service | service,AD_services | Ping,453
+service,ANY,
+service,NetFlow (UDP),12043
+service,NetFlow (UDP),12043
+service | service | service | service | service | service | service | service,138 | 445 | NetBIOS-NS (UDP) | TCP_139 | tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,422
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service | service,3000-10000 | 30000-32768 | HTTP | HTTPS | SSH,330 | 332 | 380
+service,SSH,380
+service | service | service | service | service | service | service | service | service | service | service,3268-3269 | 445 | 464 | 49152-65535-tcp | 88 | 88-tcp | Kpasswd | LDAP (TCP) | LDAP (UDP) | LDAPS (TCP) | tcp_service_135,345 | 347 | 457 | 348
+service | service | service | service | service | service | service,111 | NFS (TCP) | NFS (UDP) | tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,12046 | 423
+service | service | service | service | service | service | service,111 | NFS (TCP) | NFS (UDP) | tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,12046 | 423
+service | service | service | service,tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service,Syslog (UDP),406
+service,Syslog (UDP),406
+service | service | service | service,DNS | DNS (TCP) | DNS (UDP) | NTP (UDP),444 | 321 | 414 | 425
+service | service | service,HTTP | HTTPS | tcp_service_80,330 | 332
+service,10000,
+service | service | service | service | service | service | service | service,445 | NetBIOS Datagram | NetBIOS-NS (UDP) | NetBIOS-SSN | NFS (TCP) | NFS (UDP) | tcp_service_111 | udp_service_111,420 | 422 | 356 | 12046 | 423
+service | service | service | service | service | service,7071-TCP | 8080 | 8081 | 8082 | tcp_service_22 | tcp_service_7070,
+service,IMAPS,336
+service | service | service,HTTP | HTTPS | tcp_service_80,330 | 332
+service | service | service | service,DNS | HTTP | HTTPS | tcp_service_80,444 | 330 | 332
+service,ANY,
+service,LDAP (TCP),347
+service,LDAP (TCP),347
+service,tcp_service_80,
+service,3000,
+service,7443,
+service,25,
+service,ICMP,121
+service | service | service | service | service,137 | 137_TCP | 445 | NetBIOS-NS (UDP) | NetBIOS-SSN,422 | 356
+service | service | service | service,623 | ssh | tcp_service_161_162 | udp_service_161_162,
+service | service,HTTP | HTTPS,330 | 332
+service,SMTP Submission Service,12005
+service,IMAPS,336
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service | service | service | service,161 | 9101 | HTTP | HTTPS | JetDirect | Ping | SNMP (TCP),330 | 332 | 12058 | 453 | 378
+service | service | service | service,9101 | JetDirect | SNMP (TCP) | SNMP (UDP),12058 | 378 | 435
+service | service | service | service | service | service,9101 | HTTP | HTTPS | JetDirect | SNMP (TCP) | SNMP (UDP),330 | 332 | 12058 | 378 | 435
+service | service | service | service,MSRPC (TCP) | NetBIOS-NS (TCP) | NetBIOS-SSN | SMB-TCP,280 | 355 | 356
+service,ANY,
+service,rtp-ports -,
+service,rtp-ports -,
+service,admin-to-voip-endpoint,
+service,rtp-ports -,
+service,rtp-ports -,
+service | service,NTP (UDP) | rtp-ports -,425
+service,rtp-ports -,
+service,rtp-ports -,
+service,rtp-ports -,
+service,cucm-voip,
+service,voip-cucm,
+service,Voip-imp,
+service | service,37200 | 49152-65535,
+service,voip-cuc,
+service,16384-32767,
+service,16384-32767,
+service,16384-32767,
+service,pca-voip,
+service | service,HTTP | tcp_service_8080,330
+service | service,HTTP | tcp_service_8080,330
+service,8445,
+service,AD_services,
+service,AD_services,
+service | service | service | service,139 | 445 | TCP_139 | tcp_service_135,
+service | service,LDAP (TCP) | LDAPS (TCP),347 | 348
+service | service | service | service,DNS (TCP) | DNS (UDP) | LDAP (TCP) | LDAPS (TCP),321 | 414 | 347 | 348
+service | service | service | service,DNS (TCP) | DNS (UDP) | NTP (TCP) | NTP (UDP),321 | 414 | 362 | 425
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,HTTP | HTTPS | ICMP,330 | 332 | 121
+service | service,DNS (TCP) | DNS (UDP),321 | 414
+service | service | service | service,389 | LDAP (TCP) | LDAP (UDP) | LDAPS (TCP),347 | 457 | 348
+service | service | service | service,389 | LDAP (TCP) | LDAP (UDP) | LDAPS (TCP),347 | 457 | 348
+service | service | service | service | service,389 | ICMP | LDAP (TCP) | LDAP (UDP) | LDAPS (TCP),121 | 347 | 457 | 348
+service | service | service,ICMP | RDP remote | Remote Desktop,121 | 281
+service | service | service,HTTP | HTTPS | ICMP,330 | 332 | 121
+service | service | service | service | service,HTTP | HTTPS | ICMP | Remote Desktop | SSH,330 | 332 | 121 | 281 | 380
+service | service,DNS (TCP) | DNS (UDP),321 | 414
+service | service,3000 | 3000-udp,
+service | service | service | service,389 | LDAP (TCP) | LDAP (UDP) | LDAPS (TCP),347 | 457 | 348
+service | service,DNS (TCP) | DNS (UDP),321 | 414
+service | service,DNS (TCP) | DNS (UDP),321 | 414
+service | service,DNS (TCP) | DNS (UDP),321 | 414
+service,DNS (UDP),414
+service,Echo Request (No Code),20
+service | service | service,DNS (TCP) | HTTP | HTTPS,321 | 330 | 332
+service | service | service | service | service | service,DNS | DNS (TCP) | DNS (UDP) | NTP (TCP) | NTP (UDP) | tcp_service_53,444 | 321 | 414 | 362 | 425
+service | service,DNS (TCP) | DNS (UDP),321 | 414
+service | service,DNS (TCP) | DNS (UDP),321 | 414
+service | service | service,LDAP (TCP) | LDAP (UDP) | LDAPS (TCP),347 | 457 | 348
+service | service | service | service,DNS (TCP) | DNS (UDP) | NTP (TCP) | NTP (UDP),321 | 414 | 362 | 425
+service | service,NTP (TCP) | NTP (UDP),362 | 425
+service | service | service | service | service | service,DNS | DNS (TCP) | DNS (UDP) | NTP (TCP) | NTP (UDP) | tcp_service_53,444 | 321 | 414 | 362 | 425
+service | service | service,LDAP (TCP) | LDAP (UDP) | LDAPS (TCP),347 | 457 | 348
+service,AD_services,
+service | service | service | service,AD_services | Echo Request (Any Code) | LDAPS (TCP) | LDAPS (UDP),19 | 348 | 458
+service | service | service,LDAP (TCP) | LDAP (UDP) | LDAPS (TCP),347 | 457 | 348
+service,DNS,444
+service | service | service | service,123 | DNS | NTP (TCP) | Ping,444 | 362 | 453
+service | service | service,DNS | NTP (TCP) | NTP (UDP),444 | 362 | 425
+service | service | service,DNS | NTP (TCP) | NTP (UDP),444 | 362 | 425
+service | service | service | service | service | service,161 | 9101 | HTTP | HTTPS | JetDirect | SNMP (TCP),330 | 332 | 12058 | 378
+service,AD_services,
+service,RDP remote,
+service | service | service | service | service | service | service | service | service | service | service | service | service | service,389 | 464 | 49152-65535-tcp | 88 | 88-tcp | AD_services | Kerberos | Kpasswd | LDAP (TCP) | LDAPS (with decryption) | Microsoft Global Catalog LDAP (TCP) | Microsoft Global Catalog LDAPS (TCP) | Microsoft-DS | tcp_service_135,343 | 345 | 347 | 12044 | 12038 | 12040 | 351
+service,AD_services,
+service,5480,
+service | service,HTTPS | tcp_service_443,332
+service,8443,
+service,AD_services,
+service,AD_services,
+service | service,DNS | udp_service_53,444
+service | service | service | service,DNS | NTP (TCP) | NTP (UDP) | udp_service_53,444 | 362 | 425
+service | service,49152-65535-tcp | AD services,
+service,Kaspersky-service,
+service,Kaspersky-service,
+service,Kaspersky-service,
+service,Kaspersky-service,
+service | service | service | service,DNS | DNS (TCP with SafeSearch) | DNS (UDP) | tcp_service_53,444 | 12069 | 414
+service | service,HTTP | HTTPS,330 | 332
+service,tcp_service_443,
+service,3333,
+service,8443,
+service,AD_services,
+service,tcp_service_22,
+service,tcp_service_22,
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,27017 | 7001 | tcp_service_22,
+service | service | service,5900 | Remote Desktop | tcp_service_22,281
+service | service | service,HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service | service | service,31000-31199 | 5000-6999 | 8081 | HTTP | HTTPS | tcp_service_8080,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service,8006 | 8006/UDP,
+service | service | service | service,5900-6923 | 8006 | HTTP | HTTPS,330 | 332
+service | service | service,HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service | service,161 | 5900-5901 | HTTP | HTTPS | tcp_service_22,330 | 332
+service | service,tcp_service_443 | tcp_service_80,
+service | service | service,5900 | Remote Desktop | tcp_service_22,281
+service | service,tcp_service_443 | tcp_service_80,
+service | service,tcp_service_443 | tcp_service_80,
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service,6443,
+service,5900-6923,
+service | service | service | service,3000 | 8086 | 9090 | tcp_service_22,
+service | service | service | service | service,HTTP | HTTPS | tcp_service_22 | tcp_service_443 | tcp_service_80,330 | 332
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service | service,tcp_service_22 | tcp_service_80 | tcp_service_8000,
+service | service,tcp_service_22 | tcp_service_8000,
+service | service | service | service,5432 | 5555 | 8888 | 9000,
+service | service | service | service,5432 | 5555 | 8888 | 9000,
+service | service | service | service | service | service | service | service,8000tcp | 8080 | 8081 | ICMP | Remote Desktop | tcp_service_22 | tcp_service_443 | tcp_service_80,121 | 281
+service | service | service | service | service,8006 | 8006/UDP | tcp_service_22 | tcp_service_443 | tcp_service_80,
+service | service | service | service,DNS | DNS (TCP with SafeSearch) | DNS (UDP) | tcp_service_53,444 | 12069 | 414
+service,8834,
+service | service | service | service | service,5900 | 9090 | Remote Desktop | ssh | tcp_service_22,281
+service | service | service | service | service,5900-6923 | 8006 | HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service | service,3000-10000 | 30000-32768 | HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service,5900-6923 | 8006 | HTTP | HTTPS,330 | 332
+service,6443,
+service,6443,
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22 | tcp_service_443 | tcp_service_80,330 | 332 | 380
+service | service,SSH | tcp_service_22,380
+service | service | service,HTTP | HTTPS | tcp_service_80,330 | 332
+service | service | service | service | service,5900 | 9090 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service | service | service | service | service,5900 | 9090 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service | service | service,16384-32767 | 3000-10000 | 30000-32768 | tcp_service_22 | tcp_service_443 | tcp_service_80,
+service | service | service,tcp_service_22 | tcp_service_443 | tcp_service_80,
+service | service | service | service,5900 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service,6900,
+service,ANY,
+service | service | service | service,4040 | 8000tcp | SSH | tcp_service_8000,380
+service | service | service | service | service,5900 | 9090 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service,8000tcp,
+service,3000,
+service | service | service | service,3000 | 3000-udp | AI-ports | tcp_service_22,
+service | service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22 | tcp_service_80,330 | 332 | 380
+service,3000-10000,
+service | service | service | service | service | service,3000 | 3000-udp | 8086 | 9090 | SSH | tcp_service_22,380
+service,9090,
+service | service | service | service,3000 | 8080-udp | SSH | tcp_service_8080,380
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service | service | service,5900 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service | service | service | service | service | service | service,8080 | 8081 | HTTP | HTTPS | ICMP | Remote Desktop | SSH,330 | 332 | 121 | 281 | 380
+service | service,3000 | 3000-udp,
+service | service,SSH | tcp_service_22,380
+service | service | service | service | service | service | service | service | service | service,8000tcp | 8080 | 8081 | HTTP | HTTPS | ICMP | Remote Desktop | SSH | tcp_service_22 | tcp_service_8000,330 | 332 | 121 | 281 | 380
+service | service | service | service | service | service | service | service | service | service,8080 | HTTP | HTTPS | ICMP | Remote Desktop | RFB (TCP) | SSH | tcp_service_22 | tcp_service_443 | tcp_service_80,330 | 332 | 121 | 281 | 12001 | 380
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service,SSH | tcp_service_22,380
+service | service | service,HTTP | HTTPS | tcp_service_80,330 | 332
+service,8006,
+service | service,8080 | tcp_service_8080,
+service | service | service | service | service,3000-10000 | 30000-32768 | HTTP | HTTPS | SSH,330 | 332 | 380
+service,ANY,
+service | service | service | service | service | service | service,8081 | HTTP | HTTPS | ICMP | Remote Desktop | SSH | tcp_service_8080,330 | 332 | 121 | 281 | 380
+service | service,HTTP | HTTPS,330 | 332
+service,8000tcp,
+service | service | service | service | service | service | service | service,3000 | 8000tcp | 8081 | HTTP | HTTPS | Remote Desktop | SSH | tcp_service_8080,330 | 332 | 281 | 380
+service | service | application | service,HTTPS | ICMP | ICMP | tcp_service_443,332 | 121 | 787494
+service | service,3000-10000 | 30000-32768,
+service | service,SSH | tcp_service_22,380
+service | service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22 | tcp_service_80,330 | 332 | 380
+service | service | service,HTTP | HTTPS | SSH,330 | 332 | 380
+service | service,DNS | DNS (UDP),444 | 414
+service | service | service | service | service,5900 | 9090 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service | service | service,HTTP | HTTPS | tcp_service_80,330 | 332
+service | service,AI-ports | tcp_service_22,
+service,5000-6999,
+service,3000,
+service | service | service,3000 | 3000-udp | SSH,380
+service,9090,
+service | service | service,8080-udp | SSH | tcp_service_8080,380
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service | service | service,5900 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service | service | service | service,5900 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service,SSH,380
+service | service,SSH | tcp_service_22,380
+service | service,SSH | tcp_service_22,380
+service | service,HTTP | HTTPS,330 | 332
+service,8080,
+service,8080,
+service | service,HTTP | HTTPS,330 | 332
+service | service,587 | SMTP Submission Service,12005
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service,1337 | HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service,3000 | HTTP | HTTPS,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service,DNS (TCP) | DNS (UDP),321 | 414
+service | service | service,ICMP | LDAP (TCP) | LDAPS (TCP),121 | 347 | 348
+service,ANY,
+service,25,
+service,9090,
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service | service | service | service | service,137_TCP | 138/TCP | 445 | 8530-8531 | HTTP | HTTPS | TCP_139 | tcp_service_135,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service,123 | DNS (TCP) | DNS (UDP) | tcp_service_123,321 | 414
+service | service | service | service | service,389 | LDAP (TCP) | LDAP (UDP) | LDAPS (TCP) | LDAPS (UDP),347 | 457 | 348 | 458
+service | service,HTTP | HTTPS,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service | service | service,31000-31199 | 5000-6999 | 8080 | 8081 | HTTP | HTTPS,330 | 332
+service | service | service | service | service | service,5900 | 9090 | HTTP | HTTPS | Remote Desktop | SSH,330 | 332 | 281 | 380
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,HTTP | HTTPS | SSH,330 | 332 | 380
+service | service,HTTP | HTTPS,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,HTTP | HTTPS | SSH,330 | 332 | 380
+service | service | service | service | service | service | service,6000-6100 | 7070 | 8777 | 8820 | RTSP | tcp_service_8554 | udp/8000,12045
+service | service | service | service | service,3000-10000 | 30000-32768 | HTTP | HTTPS | SSH,330 | 332 | 380
+service | service,tcp_service_53 | udp_service_53,
+service | service | service | service | service | service,5900 | 9090 | HTTP | HTTPS | Remote Desktop | SSH,330 | 332 | 281 | 380
+service | service | service,HTTP | HTTPS | SSH,330 | 332 | 380
+service | service | service | service | service,3000-10000 | 30000-32768 | HTTP | HTTPS | SSH,330 | 332 | 380
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,HTTP | HTTPS | SSH,330 | 332 | 380
+service | service,8006 | 8006/UDP,
+service | service,HTTP | HTTPS,330 | 332
+service,SMTP Submission Service,12005
+service | service,25 | tcp_service_25,
+service | service | service | service | service | service,31000-31199 | 5000-6999 | 8080 | 8081 | HTTP | HTTPS,330 | 332
+service | service | service | service | service | service | service | service | service,2222 | 3128 | 5900-6923 | 8006 | 9090 | HTTP | HTTPS | ICMP | tcp_service_22,330 | 332 | 121
+service | service | service | service | service | service,161 | 5900 | 5901 | HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service,HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service | service,3000-10000 | 30000-32768 | HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service | service,3000-10000 | 30000-32768 | HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service | service,3000-10000 | 30000-32768 | HTTP | HTTPS | tcp_service_22,330 | 332
+service | service,5900-6923 | tcp_service_22,
+service | service,9100 | 9182,
+service | service,DNS (TCP) | DNS (UDP),321 | 414
+service | service | service,HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service | service | service,31000-31199 | 5000-6999 | 8080 | 8081 | HTTP | HTTPS,330 | 332
+service,25,
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,HTTP | HTTPS | tcp_service_22,330 | 332
+service | service,1514-1515 | 55000,
+service | service | service | service,LDAP (TCP) | LDAP (UDP) | LDAPS (TCP) | LDAPS (UDP),347 | 457 | 348 | 458
+service | service | service,5900 | Remote Desktop | tcp_service_22,281
+service | service | service | service | service | service | service | service,111 | 137 | 138 | 445 | TCP_139 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service,HTTP | HTTPS,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,LDAP (TCP) | LDAP (UDP) | LDAPS (TCP),347 | 457 | 348
+service | service | service,Remote Desktop | tcp_service_443 | tcp_service_80,281
+service | service | service | service | service | service | service,111 | 137 | 138 | 445 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service | service | service | service | service | service,111 | 137 | 138 | 445 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service | service,8443 | HTTP | HTTPS,330 | 332
+service | service | service,8443 | HTTP | HTTPS,330 | 332
+service,HTTPS,332
+service | service,ssh | tcp_service_22,
+service | service,HTTP | HTTPS,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service,1514-1515 | 55000,
+service | service | service | service,3000 | 8086 | 9090 | tcp_service_22,
+service | service | service,HTTP | HTTPS | tcp_service_22,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service | service | service | service | service | service | service | service | service | service,3000 | 8000tcp | 8080 | 8081 | 8082 | 8091 | 8092 | 8888 | HTTP | HTTPS | ICMP | Remote Desktop | tcp_service_22,330 | 332 | 121 | 281
+service | service | service,4040 | 9090 | 9990,
+service,3000,
+service | service | service | service | service | service | service | service,3000 | 8000tcp | 8001-8009 | 8080 | 8081 | HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service | service | service | service,3000 | 8000tcp | 8080 | 8081 | HTTP | HTTPS | tcp_service_22,330 | 332
+service,8006,
+service | service | service,8530-8531 | HTTP | HTTPS,330 | 332
+service | service | service,DNS | NTP (TCP) | NTP (UDP),444 | 362 | 425
+service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service,123 | 137 | 138 | 3268-3269 | 389 | 389/TCP | 445 | 464 | 88 | 88-tcp | Kpasswd | LDAPS (TCP) | LDAPS (UDP) | TCP_139 | tcp_service_123 | tcp_service_135 | tcp_service_53 | udp_service_135 | udp_service_53,345 | 348 | 458
+service | service | service | service | service | service | service | service,8000tcp | 8080 | 8081 | HTTP | HTTPS | ICMP | Remote Desktop | tcp_service_22,330 | 332 | 121 | 281
+service,4040,
+service | service | service | service | service | service,161 | 9100 | 9101 | HTTP | HTTPS | TCP_161,330 | 332
+service | service,111 | udp_service_111,
+service | service,HTTP | HTTPS,330 | 332
+service | service,tcp_service_443 | tcp_service_80,
+service | service,1514-1515 | 55000,
+service,8445,
+service | service,464 | Kpasswd,345
+service | service | service,5985 | 5986 | 5986-tcp,
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,1433-TCP-UDP | 2383 | 445,
+service,tcp_service_25,
+service | service | service | service | service | service | service | service,137 | 138 | 139 | 445 | tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service | service | service | service | service | service | service,137_TCP | 138/TCP | 445 | 8530-8531 | HTTP | HTTPS | TCP_139 | tcp_service_135,330 | 332
+service | service | service,HTTP | HTTPS | Remote Desktop,330 | 332 | 281
+service | service | service,HTTP | HTTPS | Remote Desktop,330 | 332 | 281
+service | service | service,HTTP | HTTPS | Remote Desktop,330 | 332 | 281
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,HTTP | HTTPS | Remote Desktop,330 | 332 | 281
+service | service | service,HTTP | HTTPS | Remote Desktop,330 | 332 | 281
+service | service | service | service,1434 | 2383 | 445 | tcp_service_1433,
+service | service | service | service | service | service | service,111 | 137 | 138 | 445 | TCP_139 | udp_service_111 | udp_service_2049,
+service | service,9100 | 9182,
+service | service | service,HTTP | HTTPS | Remote Desktop,330 | 332 | 281
+service | service | service,HTTP | HTTPS | Remote Desktop,330 | 332 | 281
+service | service | service | service | service,3000-10000 | 30000-32768 | HTTP | HTTPS | tcp_service_22,330 | 332
+service,tcp_service_22,
+service | service | service,50000 | 50001 | tcp_service_22,
+service,6443,
+service,9153,
+service | service,3000 | 9090,
+service,Remote Desktop,281
+service,8080,
+service | service | service | service,623 | 623' | 664 | 664',
+service,Remote Desktop,281
+service | service,9100 | 9182,
+service | service,3000-10000 | 30000-32768,
+service | service,9100 | 9182,
+service | service | service | service | service,123 | DNS | DNS (TCP) | DNS (UDP) | tcp_service_123,444 | 321 | 414
+service,Remote Desktop,281
+service,3100,
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service,tcp_service_25,
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service,8000tcp | tcp_service_22,
+service | service | service,8000tcp | tcp_service_22 | tcp_service_80,
+service,tcp_service_80,
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service,4041,
+service | service | service | service | service | service,HTTP | HTTPS | ssh | tcp_service_22 | tcp_service_443 | tcp_service_80,330 | 332
+service | service | service | service | service | service,HTTP | HTTPS | ssh | tcp_service_22 | tcp_service_443 | tcp_service_80,330 | 332
+service | service | service,HTTP | HTTPS | tcp_service_443,330 | 332
+service,tcp_service_22,
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service,ssh | tcp_service_22,
+service | service | service | service | service | service | service | service,8000tcp | 8001-8009 | 8001-8009udp | 8080 | 8081 | tcp_service_22 | tcp_service_443 | tcp_service_80,
+service | service | service | service | service | service,8000tcp | 8080 | 8081 | tcp_service_22 | tcp_service_443 | tcp_service_80,
+service | service,ICMP | tcp_service_22,121
+service | service | service | service | service | service | service | service | service | service | service | service | service,123 | 3268-3269 | 389 | 389/TCP | 445 | 49152-65535-tcp | 88 | 88-tcp | LDAPS (TCP) | tcp_service_123 | tcp_service_135 | tcp_service_53 | udp_service_53,348
+service | service | service | service | service | service,8001-8009 | 8001-8009udp | tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service,HTTPS | tcp_service_443,332
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service | service,HTTPS | Remote Desktop | tcp_service_443,332 | 281
+service | service,HTTPS | tcp_service_443,332
+service,Remote Desktop,281
+service,Remote Desktop,281
+service,ICMP,121
+service | service | service | service | service | service,161 | 9100 | 9101 | TCP_161 | tcp_service_443 | tcp_service_80,
+service | service | service | service | service | service | service | service,137 | 138 | 445 | TCP_139 | tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service,tcp_service_443 | tcp_service_80,
+service | service | service | service | service,3000-10000 | 30000-32768 | tcp_service_22 | tcp_service_443 | tcp_service_80,
+service | service | service,tcp_service_22 | tcp_service_443 | tcp_service_80,
+service | service | service | service,123 | tcp_service_123 | tcp_service_53 | udp_service_53,
+service | service | service | service | service,8080 | 8081 | 8088 | 8089 | 9000,
+service,5555,
+service | service | service | service,ssh | tcp_service_22 | tcp_service_443 | tcp_service_80,
+service | service | service | service,5432 | 5555 | 8888 | 9000,
+service,8834,
+service | service,1514-1515 | 55000,
+service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service,123 | 200 | 32683 | 389 | 389/TCP | 41952-65535 | 445 | 464 | Kpasswd | LDAPS (TCP) | tcp_service_123 | tcp_service_135 | tcp_service_53 | tcp_service_88 | udp_service_53 | udp_service_88,345 | 348
+service | service | service | service | service | service | service | service,138/TCP | 445 | 8530-8531 | NetBIOS-NS (TCP) | TCP_139 | tcp_service_135 | tcp_service_443 | tcp_service_80,355
+service | service | service,5900 | Remote Desktop | tcp_service_22,281
+service | service | service,5900 | Remote Desktop | tcp_service_22,281
+service,4040,
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service,5000,
+service | service,5900 | Remote Desktop,281
+service | service | service,5557 | 5559 | 7007,
+service | service,5900 | Remote Desktop,281
+service | service | service | service,8080 | HTTP | HTTPS | tcp_service_80,330 | 332
+service | service | service | service | service | service,31000-31199 | 5000-6999 | 8080 | 8081 | HTTP | HTTPS,330 | 332
+service | service | service | service,5432 | 5555 | 8888 | 9000,
+service | service | service,8080 | HTTP | HTTPS,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service,8000tcp | 8001 | HTTP | HTTPS,330 | 332
+service | service | service | service | service,10015-10016 | 9090 | 9443 | HTTP | HTTPS,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service,3000 | 4040 | 8000-8008/tcp | 8006 | 8006/UDP | 8080 | 8081 | 8082 | 8091 | 8092 | 8888 | 9090 | 9990 | Address Mask Reply (Any Code) | HTTP | HTTPS | Remote Desktop | SSH,2 | 330 | 332 | 281 | 380
+service | service,SSH | tcp_service_22,380
+service | service | service,HTTP | HTTPS | tcp_service_80,330 | 332
+service | service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22 | tcp_service_80,330 | 332 | 380
+service | service | service | service,123 | tcp_service_123 | tcp_service_53 | udp_service_53,
+service,6900,
+service | service | service | service | service | service | service,31000-31199 | 5000-6999 | 8080 | 8081 | HTTP | HTTPS | tcp_service_80,330 | 332
+service,8080,
+service | service | service | service | service | service | service,10015-10016 | 8091 | 9000 | 9443 | HTTP | HTTPS | SSH,330 | 332 | 380
+service | service | service,HTTP | HTTPS | tcp_service_80,330 | 332
+service | service | service | service,Sun RPC (TCP) | Sun RPC (UDP) | tcp_service_2049 | udp_service_2049,382 | 437
+service | service | service | service | service,445 | DNS (TCP) | DNS (UDP with SafeSearch) | Microsoft-DS | SMB-TCP,321 | 12063 | 351
+service | service,DNS (TCP) | DNS (UDP),321 | 414
+service | service | service | service,LDAP (TCP) | LDAP (UDP) | LDAPS (TCP) | LDAPS (UDP),347 | 457 | 348 | 458
+service | service | service,HTTP | HTTPS | tcp_service_80,330 | 332
+service | service | service,HTTP | HTTPS | tcp_service_80,330 | 332
+service,8834,
+service | service | service,HTTP | HTTPS | tcp_service_80,330 | 332
+service | service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22 | tcp_service_80,330 | 332 | 380
+service,3000-5000,
+service | service,HTTP | HTTPS,330 | 332
+service | service,SSH | tcp_service_22,380
+service | service,SSH | tcp_service_22,380
+service | service,1514-1515 | 55000,
+service | service | service | service,5432 | 5555 | 8888 | 9000,
+service | service | service | service | service,8000tcp | 8001 | HTTP | HTTPS | tcp_service_80,330 | 332
+service,31500,
+service | service,HTTP | HTTPS,330 | 332
+service | service | service,HTTP | HTTPS | SSH,330 | 332 | 380
+service | service,HTTP | HTTPS,330 | 332
+service,8006,
+service | service,HTTP | HTTPS,330 | 332
+service | service,5553-5557 | tcp_service_7000_7009,
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service | service | service | service | service | service,3000-10000 | 30000-32768 | HTTP | HTTPS | SSH | tcp_service_22 | tcp_service_80,330 | 332 | 380
+service | service | service,8530-8531 | HTTP | HTTPS,330 | 332
+service | service,3000-10000 | 30000-32768,
+service | service | service,HTTP | HTTPS | tcp_service_80,330 | 332
+service | service | service | service | service,3128 | 5900-5999 | 8006 | 9090 | Remote Desktop,281
+service | service,3128 | 8006,
+service | service | service,HTTP | HTTPS | tcp_service_80,330 | 332
+service | service | service | service | service | service,10015-10016 | 9090 | 9443 | HTTP | HTTPS | tcp_service_80,330 | 332
+service,6443,
+service | service,3000-10000 | 30000-32768,
+service | service | service | service | service | service,10001 | 10015-10016 | 8000tcp | 8091 | 9000 | 9443,
+service | service | service | service | service | service | service | service | service,10001 | 10015-10016 | 8000tcp | 8091 | 9000 | 9443 | HTTP | HTTPS | SSH,330 | 332 | 380
+service,8086,
+service | service | service | service,445 | NetBIOS Datagram | NetBIOS-NS (UDP) | NetBIOS-SSN,420 | 422 | 356
+service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22,330 | 332 | 380
+service | service | service | service | service,5900 | 9090 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service | service,HTTP | HTTPS,330 | 332
+service,4041,
+service | service,3000-10000 | 30000-32768,
+service | service,9001-9010 | 9090,
+service | service | service | service,tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service | service | service,tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service,8001-8009 | 8001-8009udp,
+service | service | service | service | service | service,8001-8009 | 8001-8009udp | tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service,8081 | MySQL,10034
+service,3000-10000,
+service | service | service | service,123 | tcp_service_123 | tcp_service_53 | udp_service_53,
+service | service | service | service,NetBIOS Datagram | NetBIOS-NS (UDP) | NetBIOS-SSN | SMB-TCP,420 | 422 | 356
+service | service | service | service | service | service,8001-8009 | 8001-8009udp | tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service | service | service | service | service | service | service | service,8080 | 8081 | HTTP | HTTPS | ICMP | RDP | Remote Desktop | SSH | tcp_service_8080,330 | 332 | 121 | 172 | 281 | 380
+service | service | service | service,123 | DNS (TCP) | DNS (UDP) | tcp_service_123,321 | 414
+service,range-14821,
+service | service,7844 | 7844-udp,
+service,10000,
+service,HTTPS,332
+service,25,
+service | service | service | service,tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service | service | service,DNS (TCP) | HTTP | HTTPS | udp_service_53,321 | 330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service | service | service | service,DNS (TCP) | DNS (UDP) | FTP | FTP-Control | HTTP | HTTPS | Remote Desktop,321 | 414 | 325 | 330 | 332 | 281
+service | service | service | service | service | service | service | service | service,1433-TCP-UDP | DNS (TCP) | DNS (UDP) | FTP | HTTP | HTTPS | SMTP | SSH | whatsapp,321 | 414 | 325 | 330 | 332 | 376 | 380
+service | service | service | service | service | service | service | service | service | service,27017 | 8000tcp | DNS (TCP) | DNS (UDP) | HTTP | HTTPS | IMAPS | Remote Desktop | SMTP | SSH,321 | 414 | 330 | 332 | 336 | 281 | 376 | 380
+service | service,IMAP | tcp_service_993,334
+service,SMTP Submission Service,12005
+service | service,9090 | 9990,
+service,9001-9010,
+service | service | service | service,tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service | service | service | service,DNS (UDP) | NTP (TCP) | NTP (UDP) | Ping | tcp_service_53,414 | 362 | 425 | 453
+service | service | service | service | service | service,8080 | HTTP | HTTPS | Ping | SSH | tcp_service_8080,330 | 332 | 453 | 380
+service,6443,
+service,6443,
+service | service,HTTP | HTTPS,330 | 332
+service,6443,
+service | service | service,5900 | Remote Desktop | SSH,281 | 380
+service | service | service,5900 | 9090 | Remote Desktop,281
+service | service | service | service,5900 | 9090 | Remote Desktop | SSH,281 | 380
+service | service | service,5900 | Remote Desktop | SSH,281 | 380
+service | service | service | service | service | service,161 | 9101 | HTTP | HTTPS | JetDirect | SNMP (TCP),330 | 332 | 12058 | 378
+service | service,8080 | 8081,
+service,ANY,
+service | service | service,Echo Reply (Any Code) | HTTP | tcp_service_80,17 | 330
+service | service | service | service,HTTP | HTTPS | tcp_service_554 | tcp_service_80,330 | 332
+service,demo-ports,
+service,6443,
+service,MySQL,10034
+service | service,8080 | tcp_service_8080,
+service | service | service | service | service,10015-10016 | 8091 | HTTP | HTTPS | SSH,330 | 332 | 380
+service,SSH,380
+service | service | service | service,9090 | Remote Desktop | RFB (TCP) | SSH,281 | 12001 | 380
+service | service | service | service | service,5900 | 9090 | 9090-udp | Remote Desktop | SSH,281 | 380
+service | service | service | service | service | service | service | service,3000 | 8080 | 8081 | HTTP | HTTPS | Remote Desktop | SSH | tcp_service_8000,330 | 332 | 281 | 380
+service,HTTPS,332
+service | service | service | service | service | service | service | service,8080 | 8081 | HTTP | HTTPS | Ping | Remote Desktop | SSH | tcp_service_8000,330 | 332 | 453 | 281 | 380
+service | service | service | service | service | service | service,8080 | 8081 | HTTP | HTTPS | Ping | SSH | tcp_service_8000,330 | 332 | 453 | 380
+service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22,330 | 332 | 380
+service | service | service | service | service | service,161 | 9101 | HTTP | HTTPS | JetDirect | SNMP (TCP),330 | 332 | 12058 | 378
+service,ANY,
+service | service | service | service,DNS | HTTP | HTTPS | tcp_service_80,444 | 330 | 332
+service | service | service | service | service | service | service,8080 | 8081 | HTTP | HTTPS | ICMP | Remote Desktop | SSH,330 | 332 | 121 | 281 | 380
+service | service,3000 | 3000-udp,
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service | service | service,5900 | Remote Desktop | SSH,281 | 380
+service | service | service | service | service | service | service | service,8000tcp | 8080 | 8081 | HTTP | HTTPS | ICMP | Remote Desktop | SSH,330 | 332 | 121 | 281 | 380
+service | service | service | service | service | service | service | service | service,8000tcp | 8080 | 8081 | HTTP | HTTPS | Photuris (ICMP) | Ping | Remote Desktop | SSH,330 | 332 | 365 | 453 | 281 | 380
+service,ANY,
+service,ANY,
+service | service | service | service,8000tcp | SSH | tcp_service_22 | tcp_service_8000,380
+service | service | service | service,8000tcp | SSH | tcp_service_22 | tcp_service_8000,380
+service,SSH,380
+service,SSH,380
+service | service | service | service | service | service | service,8080 | HTTP | HTTPS | ICMP | Remote Desktop | RFB (TCP) | SSH,330 | 332 | 121 | 281 | 12001 | 380
+service,6443,
+service | service | service | service,tcp_service_123 | tcp_service_53 | udp_service_123 | udp_service_53,
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service | service | service | service | service | service | service | service,389 | 49152-65535-tcp | 88 | Kerberos | Kshell | LDAP (TCP) | LDAPS (TCP) | Microsoft Global Catalog LDAP (TCP) | Microsoft Global Catalog LDAPS (TCP) | Microsoft-DS | MSRPC (TCP),343 | 346 | 347 | 348 | 12038 | 12040 | 351 | 280
+service | service | service | service | service | service | service | service | service | service | service,389 | 464 | 49152-65535-tcp | Kerberos | Kpasswd | LDAP (TCP) | LDAPS (TCP) | Microsoft Global Catalog LDAP (TCP) | Microsoft Global Catalog LDAPS (TCP) | Microsoft-DS | MSRPC (TCP),343 | 345 | 347 | 348 | 12038 | 12040 | 351 | 280
+service | service | service | service | service | service | service | service | service,137 | 2383 | 445 | HTTP | HTTPS | Microsoft-DS | MSSQL (TCP) | MSSQL (UDP) | Remote Desktop,330 | 332 | 351 | 10026 | 10016 | 281
+service | service | service | service | service,123 | DNP3 (UDP) | DNS (TCP) | tcp_service_123 | udp_service_53,12024 | 321
+service | service,HTTP | tcp_service_80,330
+service,HTTP,330
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service | service | service,161 | 9101 | HTTP | HTTPS | JetDirect | SNMP (TCP),330 | 332 | 12058 | 378
+service,MySQL,10034
+service | service | service | service,HTTP | HTTPS | tcp_service_53 | udp_service_53,330 | 332
+service,range-14821,
+service | service | service | service | service | service | service | service | service,Kerberos | LDAP (TCP) | LDAP (UDP) | LDAPS (TCP) | Microsoft Global Catalog LDAP (TCP) | Microsoft Global Catalog LDAPS (TCP) | MSRPC (TCP) | SMB-TCP | udp_service_88,343 | 347 | 457 | 348 | 12038 | 12040 | 280
+service | service | service | service,tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service | service | service,tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service | service | service,tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service | service | service,464 | 49152-65535-tcp | Kpasswd,345
+service | service | service,25 | Ping | SMTP,453 | 376
+service | service | service | service,Microsoft-DS | NetBIOS Datagram | NetBIOS-NS (UDP) | NetBIOS-SSN,351 | 420 | 422 | 356
+service | service | service | service,Microsoft-DS | NetBIOS Datagram | NetBIOS-NS (UDP) | NetBIOS-SSN,351 | 420 | 422 | 356
+service | service | service | service,8081 | 9090 | 9090-udp | 9990,
+service | service | service | service,4040 | 9090 | 9090-udp | 9990,
+service,tcp_service_22,
+service | service | service | service | service,3000-10000 | 30000-32768 | HTTP | HTTPS | ssh,330 | 332
+service | service,Remote Desktop | SSH,281 | 380
+service,SMTP,376
+service,ANY,
+service,SMTP,376
+service | service,587 | SMTP Submission Service,12005
+service | service,143 | IMAPS,336
+service | service | service,5900 | Remote Desktop | SSH,281 | 380
+service,SMTP Submission Service,12005
+service,SMTP Submission Service,12005
+service | service | service | service,123 | NTP (TCP) | tcp_service_53 | udp_service_53,362
+service,25,
+service | service,8000-8008 | 8000-8008/tcp,
+service | service | service,8000-8008 | 8000-8008/tcp | tcp_service_22,
+service | service | service,8000-8008 | 8000-8008/tcp | tcp_service_22,
+service | service | service,8000-8008 | 8000-8008/tcp | tcp_service_22,
+service | service | service,8000-8008 | 8000-8008/tcp | tcp_service_22,
+service,3000,
+service | service | service | service | service,3000 | 8086 | 9090 | SSH | tcp_service_22,380
+service | service | service,3000 | SSH | tcp_service_22,380
+service,ANY,
+service | service | service,465 | IMAPS | SMTP Submission Service,336 | 12005
+service | service | service | service,DNS (TCP) | DNS (UDP) | HTTP | HTTPS,321 | 414 | 330 | 332
+service,Remote Desktop,281
+service,HTTPS,332
+service,SCCP,12019
+service | service | service | service,HTTP | HTTPS | tcp_service_22 | tcp_service_80,330 | 332
+service,HTTPS,332
+service | service,25 | SMTP,376
+service | service | service | service,DNS (TCP) | DNS (UDP) | NTP (TCP) | NTP (UDP),321 | 414 | 362 | 425
+service | service | service,BOOTPC (TCP) | BOOTPS (TCP) | DHCP,311 | 312
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service,DNS (TCP) | DNS (UDP) | HTTP | HTTPS,321 | 414 | 330 | 332
+service | service | service | service,8000-8008 | 8000-8008/tcp | SSH | tcp_service_22,380
+service | service | service | service | service | service | service | service,8080 | 8081 | 8088 | 8089 | 8888 | 9000 | 9080-9082 | 9888,
+service | service | service | service | service | service,9090 | Microsoft-DS | NetBIOS Datagram | NetBIOS-NS (UDP) | NetBIOS-SSN | SSH,351 | 420 | 422 | 356 | 380
+service,HTTPS,332
+service | service | service | service,HTTP | HTTPS | RDP | Remote Desktop,330 | 332 | 172 | 281
+service | service | service | service,DNS (TCP) | tcp_service_123 | udp_service_123 | udp_service_53,321
+service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service,464 | 49668 | 49673 | 49681 | DNS (TCP) | Kpasswd | LDAP (TCP) | LDAP (UDP) | LDAPS (TCP) | Microsoft Global Catalog LDAP (TCP) | Microsoft Global Catalog LDAPS (TCP) | Microsoft-DS | tcp_service_123 | tcp_service_135 | tcp_service_88 | udp_service_123 | udp_service_53 | udp_service_88,321 | 345 | 347 | 457 | 348 | 12038 | 12040 | 351
+service | service | service | service,Microsoft-DS | NetBIOS Datagram | NetBIOS-NS (UDP) | NetBIOS-SSN,351 | 420 | 422 | 356
+service | service | service,BOOTPC (TCP) | BOOTPS (TCP) | DHCP,311 | 312
+service,3000,
+service | service | service | service,5900 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service | service | service | service | service | service,5000 | HTTP | HTTPS | SSH | tcp_service_22 | tcp_service_80,330 | 332 | 380
+service,5000,
+service,8093,
+service,5000,
+service | service | service | service,HTTP | HTTPS | tcp_service_443 | tcp_service_80,330 | 332
+service,demo-ports,
+service,demo-ports,
+service | service,SSH | tcp_service_22,380
+service | service | service | service | service | service,3000-9000 | 9090 | HTTP | HTTPS | SSH | tcp_service_22,330 | 332 | 380
+service | service | service | service | service | service | service | service | service | service,8443 | BOOTPS (UDP) | DNS (UDP) | HTTPS | Kerberos | Microsoft-DS | TCP-8084 | TCP-8905 | tcp_service_135 | tcp_service_80,409 | 414 | 332 | 343 | 351
+service,Remote Desktop,281
+service,Remote Desktop,281
+service | service | service | service | service,9090 | HTTP | HTTPS | SSH | tcp_service_22,330 | 332 | 380
+service | service,5985 | 5986,
+service,Remote Desktop,281
+service,Remote Desktop,281
+service | service,49152-65535-tcp | AD_services,
+service,9001-9010,
+service | service,49152-65535-tcp | AD_services,
+service,RDP remote,
+service | service | service | service,LDAP (TCP) | LDAP (UDP) | LDAPS (TCP) | LDAPS (UDP),347 | 457 | 348 | 458
+service | service,NTP (TCP) | NTP (UDP),362 | 425
+service | service | service | service | service | service | service | service | service | service,161 | 5900 | 5900-6923 | 5901 | 9090 | Echo Reply (Any Code) | Echo Request (Any Code) | HTTP | HTTPS | SSH,17 | 19 | 330 | 332 | 380
+service | service | service | service,9090 | HTTP | HTTPS | SSH,330 | 332 | 380
+service,Ping,453
+service | service,HTTP | HTTPS,330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22,330 | 332 | 380
+service | service | service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22 | tcp_service_443 | tcp_service_80,330 | 332 | 380
+service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service | service,1514-1515 | 3000 | 3000-10000 | 30000-32768 | 55000 | 6900 | 8080 | 8081 | 8088 | 8089 | 9000 | HTTP | HTTPS | SSH | tcp_service_22 | tcp_service_443 | tcp_service_80,330 | 332 | 380
+service | service | service | service | service,2222 | 54323 | 6100 | HTTP | HTTPS,330 | 332
+service | service | service | service | service | service | service | service | service | service,2222 | 3128 | 5900-6923 | 8006 | 9090 | HTTP | HTTPS | Ping | SSH | tcp_service_22,330 | 332 | 453 | 380
+service | service | service | service | service,2222 | 54323 | 6100 | HTTP | HTTPS,330 | 332
+service | service | service | service | service | service,161 | 5900-5901 | HTTP | HTTPS | SSH | tcp_service_22,330 | 332 | 380
+service | service | service | service | service | service,2222 | 5900-6923 | 9090 | Photuris (ICMP) | Ping | SSH,365 | 453 | 380
+service | service,5985 | 5986,
+service | service | service | service | service | service | service | service,Microsoft-DS | NetBIOS Datagram | NetBIOS-NS (UDP) | NetBIOS-SSN | NFS (TCP) | NFS (UDP) | Sun RPC (TCP) | Sun RPC (UDP),351 | 420 | 422 | 356 | 12046 | 423 | 382 | 437
+service | service | service | service,tcp_service_111 | tcp_service_2049 | udp_service_111 | udp_service_2049,
+service,6443,
+service,8000tcp,
+service,ANY,
+service | service | service,5900 | Remote Desktop | SSH,281 | 380
+service,8834,
+service | service | service | service | service,2222 | 5900-6923 | 9090 | Photuris (ICMP) | SSH,365 | 380
+service | service | service | service | service,2222 | 54323 | 6100 | HTTP | HTTPS,330 | 332
+service | service | service | service | service,161 | 5900-5901 | HTTP | HTTPS | SSH,330 | 332 | 380
+service,Remote Desktop,281
+service,SSH,380
+service | service | service | service,9090 | HTTP | HTTPS | SSH,330 | 332 | 380
+service | service | service,5900 | Remote Desktop | SSH,281 | 380
+service,8445,
+service | service | service,HTTP | HTTPS | tcp_service_22,330 | 332
+service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22,330 | 332 | 380
+service | service,3000-9000 | 9090,
+service | service,3000 | 5000,
+service,SSH,380
+service,SSH,380
+service | service | service | service,DNS (TCP with SafeSearch) | DNS (UDP) | NTP (TCP) | NTP (UDP),12069 | 414 | 362 | 425
+service | service | service | service | service,LDAPS (TCP) | Microsoft Global Catalog LDAP (TCP) | Microsoft Global Catalog LDAPS (TCP) | Microsoft-DS | tcp_service_135,348 | 12038 | 12040 | 351
+service | service | service | service,Kerberos | LDAP (TCP) | LDAP (UDP) | udp_service_88,343 | 347 | 457
+service | service,8000tcp | SSH,380
+service | service | service | service | service | service | service | service | service | service | service | service | service,DNS (UDP) | Kerberos | LDAP (TCP) | LDAP (UDP) | LDAPS (TCP) | Microsoft Global Catalog LDAP (TCP) | Microsoft Global Catalog LDAPS (TCP) | Microsoft-DS | NTP (TCP) | NTP (UDP) | tcp_service_135 | tcp_service_53 | udp_service_88,414 | 343 | 347 | 457 | 348 | 12038 | 12040 | 351 | 362 | 425
+service | service | service | service | service | service | service | service | service | service,5900 | 5901 | 623 | HTTP | HTTPS | Ping | SNMP (UDP) | SSH | tcp_service_22 | udp_service_161,330 | 332 | 453 | 435 | 380
+service | service | service | service | service | service,32764:32769 | 32764:32769-udp | NFS (TCP) | NFS (UDP) | tcp_service_111 | udp_service_111,12046 | 423
+service | service | service,16514 | 49152:49215 | 54321,
+service,SMTP,376
+service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22,330 | 332 | 380
+service,ANY,
+service | service,8001-8008 | 8001-8008/tcp,
+service,3000,
+service,Echo Request (No Code),20
+service | service | service | service,5900 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service,HTTPS,332
+service | service,SSH | tcp_service_22,380
+service | service | service | service,5900 | Remote Desktop | SSH | tcp_service_22,281 | 380
+service,Echo Request (No Code),20
+service,AD_services,
+service,Echo Request (No Code),20
+service,Echo Reply (No Code),18
+service | service,HTTP | HTTPS,330 | 332
+service | service,465 | SMTP Submission Service,12005
+service,ssh,
+service | service,ICMP | Ping,121 | 453
+service | service,ICMP | Ping,121 | 453
+service,tcp_service_22,
+service | service | service | service | service | service,4040 | 8080 | 8081 | HTTP | HTTPS | SSH,330 | 332 | 380
+service | service | service,AI-ports | SSH | tcp_service_22,380
+service | service | service | service | service,137_TCP | 445 | NetBIOS-NS (UDP) | NetBIOS-SSN | TCP_139,422 | 356
+service | service | service | service,623 | HTTPS | SSH | udp_service_161_162,332 | 380
+service | service | service | service | service | service | service | service | service | service,8080 | 8081 | HTTP | HTTPS | Ping | Remote Desktop | SSH | tcp_service_22 | tcp_service_443 | tcp_service_80,330 | 332 | 453 | 281 | 380
+service | service | service | service | service | service | service | service | service,8080 | 8081 | HTTP | HTTPS | Remote Desktop | SSH | tcp_service_22 | tcp_service_443 | tcp_service_80,330 | 332 | 281 | 380
+service,Alexandria Annotation Server,
+service,tcp_service_8000,
+service | service | service | service | service | service | service | service,8006 | 8006/UDP | 8080 | 8081 | HTTP | HTTPS | SSH | tcp_service_22,330 | 332 | 380
+service | service | service,HTTP | HTTPS | SSH,330 | 332 | 380
+service | service | service,8080 | Ping | SSH,453 | 380
+service,Echo Request (No Code),20
+service,ANY,
+service | service | service | service | service,DNS | HTTP | HTTPS | SMTP | whatsapp,444 | 330 | 332 | 376
+service,ANY,
+service | service | service,FTP | FTP-Control | SSH,325 | 380
+service,ANY,
+service,ANY,
+service,HTTP,330
+service | service | service,DNS | HTTP | HTTPS,444 | 330 | 332
+service,ANY,
+service,HTTP,330
+service | service | service | service | service | service | service,DNS | FTP | HTTP | HTTPS | SMTP | SSH | whatsapp,444 | 325 | 330 | 332 | 376 | 380
+service,Remote Desktop,281
+service | service,HTTP | HTTPS,330 | 332
+service,Remote Desktop,281
+service,10015-10016,
+service,Alexandria Annotation Server,
+service,ANY,
+service,Remote Desktop,281
+service,ANY,
+service,ANY,
+service | service | service | service | service | service | service | service,9101 | HTTP | HTTPS | JetDirect | Ping | SNMP (TCP) | SNMP (UDP) | tcp_service_80,330 | 332 | 12058 | 453 | 378 | 435
+service | service,Ping | SSH,453 | 380
+service | service | service,DNS | HTTP | HTTPS,444 | 330 | 332
+service,ANY,
+service,DNS,444
+service | service | service,DNS | HTTP | HTTPS,444 | 330 | 332
+service | service | service,Echo Request (Any Code) | HTTP | HTTPS,19 | 330 | 332
+service | service,HTTP | HTTPS,330 | 332
+service,ANY,
+service | service | service,DNS | HTTP | HTTPS,444 | 330 | 332
+service | service | service,FTP | FTP-Control | SSH,325 | 380
+service,Remote Desktop,281
+application,SSH,790019
+service,SSH,380
+service | service,Echo Request (Any Code) | SSH,19 | 380
+service | service | service | service | service,HTTP | HTTPS | ICMP | Remote Desktop | SSH,330 | 332 | 121 | 281 | 380
+service,ANY,
+service,ANY,
+service | service | service | service | service,HTTP | HTTPS | ICMP | Remote Desktop | SSH,330 | 332 | 121 | 281 | 380
+service,ANY,
+service,SSH,380
+service,DNS,444
+service,Core-Services,
+service,SSH,380
+service | service,Ping | SSH,453 | 380
+service,AD_services,
+service,ANTIVIRUS,
+service,1433-TCP-UDP,
+service | service | service,DNS | HTTP | HTTPS,444 | 330 | 332
+service | service | service,DNS | HTTP | HTTPS,444 | 330 | 332
+service,SSH,380
+service,SSH,380
+service | service,HTTP | HTTPS,330 | 332
+service | service,Echo Request (Any Code) | SSH,19 | 380
+service | service | service | service,8080 | 8081 | HTTP | HTTPS,330 | 332
+service | service,Echo Request (Any Code) | SSH,19 | 380
+service,SSH,380
+service,SSH,380
+service | service | service | service,HTTP | HTTPS | SSH | tcp_service_22,330 | 332 | 380
+service | service | service | service | service | service | service | service | service | service | service | service | service | service | service,1194 | 123 | 143 | 161 | 25 | 8080 | 9481 | DNS (TCP) | DNS (UDP) | HTTP | HTTPS | NTP (TCP) | SNMP (TCP) | SSH | tcp_service_8000,321 | 414 | 330 | 332 | 362 | 378 | 380
+service,Remote Desktop,281
+service,SSH,380
+service | service | service | service | service | service,464 | Kerberos | Kpasswd | LDAP (TCP) | LDAPS (TCP) | udp_service_88,343 | 345 | 347 | 348
+service,DNS,444
+service,Core-Services,
+service,DNS,444
+service,Core-Services,
+service | service | service,DNS | HTTP | HTTPS,444 | 330 | 332
+service,DNS,444
+service,Core-Services,
+service,Core-Services,
+service,Core-Services,
+service,Core-Services,
+service,Core-Services,
+service,Core-Services,
+service,Core-Services,
+service,SSH,380
+service,ANY,
+service | service,HTTP | HTTPS,330 | 332
+service,demo-ports,

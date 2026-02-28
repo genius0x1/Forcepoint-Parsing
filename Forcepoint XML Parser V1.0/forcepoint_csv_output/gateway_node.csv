@@ -1,0 +1,3 @@
+central,gateway_ref,mobile,vpn_site_ref.enabled,vpn_site_ref.ref_key,vpn_site_ref.site_mode,vpn_site_ref.value
+false,VPN Client,true,true,1,normal,VPN Client
+false,AIC-Context-New@#1,true,true,,normal,Automatic Site for AIC-Context-New-2 - Primary

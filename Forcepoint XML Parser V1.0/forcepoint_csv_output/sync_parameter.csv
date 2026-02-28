@@ -1,0 +1,13 @@
+full_sync_interval,heartbeat_group_ip,incr_sync_interval,statesync_group_ip,sync_mode,sync_security
+5000,224.0.0.221,50,224.0.0.222,sync_all,sign
+5000,224.0.0.221,50,224.0.0.222,sync_all,sign
+5000,224.0.0.221,50,224.0.0.222,sync_all,sign
+5000,224.0.0.221,50,224.0.0.222,sync_all,sign
+5000,224.0.0.221,50,224.0.0.222,sync_all,sign
+5000,224.0.0.221,50,224.0.0.222,sync_all,sign
+5000,224.0.0.221,50,224.0.0.222,sync_all,sign
+5000,224.0.0.221,50,224.0.0.222,sync_all,sign
+5000,224.0.0.221,50,224.0.0.222,sync_all,sign
+5000,224.0.0.221,50,224.0.0.222,sync_all,sign
+5000,224.0.0.221,50,224.0.0.222,sync_all,sign
+5000,224.0.0.221,50,224.0.0.222,sync_all,sign

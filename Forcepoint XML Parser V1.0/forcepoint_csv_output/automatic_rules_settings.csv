@@ -1,0 +1,3 @@
+allow_auth_traffic,allow_connections_to_dns_resolvers,allow_connections_to_remote_dhcp_server,allow_icmp_traffic_for_route_probing,allow_listening_interfaces_to_dns_relay_port,allow_no_nat,log_level
+true,true,true,true,true,true,none
+,,,true,,,none

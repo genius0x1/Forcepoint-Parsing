@@ -1,0 +1,2 @@
+dhcp_add_info,dhcp_client_enabled,dhcp_client_mode,max_packet_size,restricted_address_enabled,use_arp_proxy_enabled,dhcp_server_ref.value,dhcp_client_interface.address
+0,true,2,576,true,false,AIC-DHCP | AIC_DHCP_secondary,10.53.30.1

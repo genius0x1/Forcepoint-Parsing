@@ -1,0 +1,13 @@
+comment,db_key,name
+imap.gmail.com,74096,imap.gmail.com
+,72233,outlook.office365.com
+,73866,region1.v2.argotunnel.com
+region2.v2.argotunnel.com,73980,region2.v2.argotunnel.com
+,74095,smtp.gmail.com
+,72235,smtp.office365.com
+,74103,ssh.axisapps.io
+,72238,time.google.com
+,72239,time1.google.com
+,72240,time2.google.com
+,72241,time3.google.com
+,72242,time4.google.com
