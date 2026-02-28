@@ -9,3 +9,11 @@ A lightweight web application for parsing **Forcepoint XML** files, viewing the 
 
 ```bash
 pip install flask openpyxl
+```
+## 📦 Runnung
+
+```bash
+python app.py
+```
+## Then open your browser and navigate to:
+## http://localhost:5000
