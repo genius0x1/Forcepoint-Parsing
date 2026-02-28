@@ -1,5 +1,4 @@
 """
-Forcepoint XML Parser — Web Viewer + Excel Exporter
 pip install flask openpyxl
 python app_v3.py  ->  http://localhost:5000
 """
